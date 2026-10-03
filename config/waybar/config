@@ -1,0 +1,125 @@
+{
+  "height": 42,
+  "spacing": 10,
+
+  "modules-left": [
+    "sway/workspaces",
+    "custom/media",
+    "cpu",
+    "memory",
+    "disk",
+    "custom/spotify"
+  ],
+
+  "modules-center": [
+    "river/tags"
+  ],
+
+  "modules-right": [
+    "tray",
+    "pulseaudio",
+    "clock",
+    "custom/notification"
+  ],
+
+  "tray": {
+    "spacing": 10
+  },
+
+  "clock": {
+    "format": "{:%I:%M %p}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%d/%m/%y}",
+    "interval": 60
+  },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{icon} {volume}%",
+    "format-bluetooth-muted": "󰖁 {icon}",
+    "format-muted": "󰖁 ",
+    "format-icons": {
+      "default": ["", "", " "]
+    },
+    "on-click": "pavucontrol"
+  },
+
+"pulseaudio": {
+  "scroll-step": 5,
+  "format": "{volume}% ",
+  "format-muted": "",
+  "on-click": "pavucontrol"
+},
+
+
+"cpu": {
+    "format": "   {usage}%",
+    "tooltip-format": "CPU Usage\n{usage}%"
+  },
+
+  "memory": {
+    "interval": 10,
+    "format": "󰘚 {used:0.1f}GB",
+    "tooltip": true,
+    "tooltip-format": "{used:0.1f}GB/{total:0.1f}GB"
+  },
+
+  "disk": {
+    "interval": 30,
+    "path": "/home",
+    "format": "󰉉 {percentage_used}%",
+    "tooltip": true,
+    "tooltip-format": "{used} / {total}"
+  },
+
+  "temperature": {
+    "interval": 10,
+    "tooltip": true,
+    "hwmon-path": [
+      "/sys/class/hwmon/hwmon1/temp1_input",
+      "/sys/class/thermal/thermal_zone0/temp"
+    ],
+    "critical-threshold": 82,
+    "format-critical": "{icon}{temperatureC}°C",
+    "format": "{icon}{temperatureC}°C",
+    "format-icons": [""],
+    "on-click-right": "kitty --title nvtop sh -c 'nvtop'"
+  },
+
+  "custom/spotify": {
+    "format": "{}  ",
+    "exec": "/home/diener/.appimage/spotify.sh",
+    "return-type": "json",
+    "on-click": "playerctl -p spotify play-pause",
+    "on-scroll-up": "playerctl -p spotify next",
+    "on-scroll-down": "playerctl -p spotify previous",
+    "exec-if": "pgrep spotify"
+  },
+
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": " <span foreground='red'><sup> </sup></span>",
+      "none": "",
+      "dnd-notification": " <span foreground='red'><sup> </sup></span>",
+      "dnd-none": "",
+      "inhibited-notification": " <span foreground='red'><sup> </sup></span>",
+      "inhibited-none": "",
+      "dnd-inhibited-notification": " <span foreground='red'><sup> </sup></span>",
+      "dnd-inhibited-none": ""
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+
+  "river/tags": {
+    "num-tags": 4,
+    "set-tags": [1, 2, 3, 4],
+    "tag-labels": ["I", "II", "III", "IV"]
+  }
+}

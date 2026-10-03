@@ -1,0 +1,180 @@
+{
+	/////////////////////////////////////////////////
+	//
+	//// Bar configuration
+	//
+	/////////////////////////////////////////////////
+	"height"  : 28,
+	"position": "top",
+
+
+
+	/////////////////////////////////////////////////
+	//
+	//// Modules
+	//
+	/////////////////////////////////////////////////
+	"modules-left"   : [ "custom/space", "sway/workspaces", "custom/space", "sway/window" ],
+	"modules-center" : [ "sway/mode", "custom/space", "clock", "custom/space", "custom/weather" ],
+	"modules-right"  : [ "tray", "custom/space", "cpu", "custom/space", "memory", "custom/space", "custom/fan", "custom/space", "idle_inhibitor", "custom/space", "sway/language", "custom/space", "network", "custom/space", "bluetooth", "custom/space", "pulseaudio", "custom/space", "custom/powermenu", "custom/space" ],
+
+
+
+	/////////////////////////////////////////////////
+	//
+	//// Module(s) configuration
+	//
+	/////////////////////////////////////////////////
+	"sway/workspaces": {
+		"format"                   : "{}",
+		"format-icons": {
+			"focused"              : "",
+			"default"              : ""
+		}
+	},
+
+	"sway/mode": {
+		"format"                   : "<span style=\"italic\">{}</span>",
+		"tooltip"                  : false
+	},
+
+	"sway/language": {
+		"format"                   : "{short} {variant}",
+		"on-click"                 : "swaymsg input \"type:keyboard\" xkb_switch_layout next"
+	},
+
+	"sway/scratchpad": {
+		"format"                   : "{icon} {count}",
+		"show-empty"               : false,
+		"format-icons"             : ["", "<U+F2D2>"],
+		"tooltip"                  : true,
+		"tooltip-format"           : "{app}: {title}"
+    },
+
+	"sway/window": {
+		"format"                   : "{}",
+		"max-length"               : 50,
+		"tooltip"                  : false
+	},
+
+	"idle_inhibitor": {
+		"format"                   : "{icon}",
+		"format-icons": {
+			"activated"            : "",
+			"deactivated"          : ""
+		}
+	},
+
+	"tray": {
+		"spacing"                  : 5
+	},
+
+	"cpu": {
+		"interval"                 : 1,
+		"format"                   : " {max_frequency:0.2f}GHz | {usage}%",
+		"on-click"                 : "$HOME/.config/sway/scripts.d/programtoggle.sh kitty -e htop"
+	},
+
+	"clock": {
+		"tooltip-format"           : "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+		"format"                   : "{:%a %d %b  %H:%M:%S}",
+		"interval"                 : 1
+	},
+
+	"memory": {
+		"interval"                 : 10,
+		"format"                   : " {used:0.2f} / {total:0.0f} GB",
+		"on-click"                 : "$HOME/.config/sway/scripts.d/programtoggle.sh kitty -e htop"
+	},
+
+	"network": {
+		"tooltip"                  : false,
+		"format-wifi"              : "",
+		"format-ethernet"          : "",
+		"format-linked"            : " (No IP)",
+		"format-disconnected"      : "⚠  Disconnected",
+		"format-alt"               : "{essid} {ipaddr}/{cidr} ",
+		"on-click-right"           : "$HOME/.config/sway/scripts.d/programtoggle.sh kitty -T nmtui -e nmtui"
+	},
+
+	"pulseaudio": {
+		"tooltip"                  : false,
+		"format"                   : "{icon} {volume}%  {format_source}",
+//		"format-bluetooth"         : "{icon}  {volume}%",
+//		"format-bluetooth-muted"   : "{icon}  ",
+		"format-muted"             : "",
+		"format-source"            : "{volume}% ",
+		"format-source-muted"      : "",
+		"format-icons": {
+			"headphone"            : "",
+			"hands-free"           : "",
+			"headset"              : "",
+			"phone"                : "",
+			"portable"             : "",
+			"car"                  : "",
+			"default"              : [" ", " ", " "]
+		},
+		"scroll-step"              : 5,
+		"on-click"                 : "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+		"on-click-right"           : "$HOME/.config/sway/scripts.d/programtoggle.sh pavucontrol",
+		"on-scroll-up"             : "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+		"on-scroll-down"           : "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+	},
+
+	"battery": {
+		//"bat"                      : "BAT2",
+		"interval"                 : 60,
+		"states": {
+			"warning"              : 30,
+			"critical"             : 15
+		},
+		"format"                   : "{icon} {capacity}%",
+		"format-icons"             : ["", "", "", "", ""],
+		"max-length"               : 25
+	},
+
+	"bluetooth": {
+		"format"                   : "",
+		"format-connected"         : "",
+		"format-connected-battery" : " {icon} {device_battery_percentage}%",
+		"format-icons"             : ["", "", "", "", ""]
+	},
+
+
+
+	///////////////////////////////////////////////////
+	//
+	//// Other module(s)
+	//
+	///////////////////////////////////////////////////
+	"custom/space": {
+		"format"                   : "  ",
+		"tooltip"                  : false,
+	},
+
+	"custom/fan": {
+		"exec"                     : "cat $(find /sys/devices/platform -iname '*fan1_input' 2>/dev/null)",
+		"format"                   : "  {} RPM",
+		"tooltip"                  : false,
+		"interval"                 : 1
+	},
+
+	"custom/powermenu": {
+		"on-click"                 : "$HOME/.config/sway/script.d/programtoggle.sh $HOME/.config/sway/script.d/powermenu.sh",
+		"format"                   : "",
+		"tooltip"                  : false
+	},
+
+	"custom/screenshot": {
+		"on-click"                 : "~/.config/sway/script.d/screenshot.sh",
+		"format"                   : "",
+		"tooltip"                  : false
+	},
+	"custom/weather": {
+		"format"                   : "{}",
+		"interval"                 : 3600,
+		"exec"                     : "curl -s 'https://wttr.in/Istanbul?format=1' | sed 's/ //1'",
+		"exec-if"                  : "ping wttr.in -c1",
+		"on-click"                 : "$HOME/.config/sway/scripts.d/programtoggle.sh kitty -T wttr.in --hold sh -c 'curl https://wttr.in/Istanbul'"
+    },
+}

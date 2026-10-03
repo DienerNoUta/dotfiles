@@ -1,0 +1,44 @@
+00:00:00.200 |I| Configuration LogValueChange: ResScale set to: 1
+00:00:00.258 |I| Configuration LogValueChange: ResScaleCustom set to: 1
+00:00:00.258 |I| Configuration LogValueChange: MaxAnisotropy set to: -1
+00:00:00.262 |I| Configuration LogValueChange: AspectRatio set to: Fixed16x9
+00:00:00.444 |I| Configuration LogValueChange: PreferredGpu set to: 
+00:00:00.454 |I| Configuration LogValueChange: Language set to: AmericanEnglish
+00:00:00.455 |I| Configuration LogValueChange: Region set to: USA
+00:00:00.455 |I| Configuration LogValueChange: TimeZone set to: UTC
+00:00:00.459 |I| Configuration LogValueChange: EnableDockedMode set to: True
+00:00:00.484 |I| Configuration LogValueChange: CustomVSyncInterval set to: 120
+00:00:00.484 |I| Configuration LogValueChange: EnableShaderCache set to: True
+00:00:00.484 |I| Configuration LogValueChange: EnableMacroHLE set to: True
+00:00:00.489 |I| Configuration LogValueChange: ScalingFilterLevel set to: 80
+00:00:00.489 |I| Configuration LogValueChange: EnablePtc set to: True
+00:00:00.489 |I| Configuration LogValueChange: EnableFsIntegrityChecks set to: True
+00:00:00.490 |I| Configuration LogValueChange: AudioBackend set to: SDL2
+00:00:00.490 |I| Configuration LogValueChange: AudioVolume set to: 1
+00:00:00.499 |I| Configuration LogValueChange: MemoryManagerMode set to: HostMappedUnsafe
+00:00:00.500 |I| Configuration LogValueChange: UseHypervisor set to: True
+00:00:00.500 |I| Configuration LogValueChange: LdnPassphrase set to: 
+00:00:00.500 |I| Configuration LogValueChange: LdnServer set to: 
+00:00:00.914 |W| Application GetActualScaleFactor: Couldn't determine monitor DPI: Wayland not yet supported
+00:00:00.915 |N| Application PrintSystemInfo: Ryujinx Version: 1.3.2
+00:00:00.915 |N| Application PrintSystemInfo: .NET Runtime: .NET 9.0.5
+00:00:00.927 |N| Application PrintSystemInfo: Operating System: Arch Linux (X64)
+00:00:00.927 |N| Application PrintSystemInfo: CPU: AMD Ryzen 5 5500 ; 12 logical
+00:00:00.935 |N| Application PrintSystemInfo: RAM: Total 31.1 GiB ; Available 17.5 GiB
+00:00:00.940 |N| Application PrintSystemInfo: Logs Enabled: Info, Warning, Error, Guest, Stub
+00:00:00.941 |N| Application PrintSystemInfo: Launch Mode: UserProfile
+00:00:01.532 |E| .NET TP Worker ATTENTION: default value of option mesa_glthread overridden by environment.
+00:00:01.614 |E| .NET TP Worker ATTENTION: default value of option mesa_glthread overridden by environment.
+00:00:01.622 |E| .NET TP Worker ATTENTION: default value of option mesa_glthread overridden by environment.
+00:00:24.464 |E| .NET TP Worker ATTENTION: default value of option mesa_glthread overridden by environment.
+00:00:30.458 |I| Application CheckGitLabVersionAsync: Checking for updates from https://update.ryujinx.app/latest/query?os=linux&arch=amd64&rc=stable.
+00:00:31.858 |I| Application BeginUpdateAsync: Up to date.
+00:00:56.023 |I| Application HandleKeysInstallation: Installing Keys
+00:00:59.020 |I| Application HandleKeysInstallation: New Keys file successfully installed.
+00:01:14.261 |I| Application HandleFirmwareInstallation: Installing firmware 20.3.0
+00:01:16.566 |I| Application HandleFirmwareInstallation: System version 20.3.0 successfully installed.
+00:01:52.097 |I| Configuration LogValueChange: SystemTimeOffset set to: -24
+00:01:52.098 |I| Configuration LogValueChange: TickScalar set to: 50
+00:01:52.099 |I| Configuration LogValueChange: PreferredGpu set to: 0x1002_0x731F
+00:01:52.434 |W| GUI.ApplicationLibraryThread Application LoadApplications: Failed to get access to directory: "/home/[redacted]/games"
+00:01:53.338 |I| Configuration LogValueChange: SystemTimeOffset set to: -25

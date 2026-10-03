@@ -1,0 +1,10 @@
+# Perfil para tu monitor normal
+profile monitor {
+    output "eDP-1" mode 1920x1080@75 position 0,0 scale 1
+}
+
+# Perfil para tu TV 4K
+profile tv-4k {
+    output "HDMI-A-1" mode 2560x1440@100 position 0,0 scale 1
+}
+

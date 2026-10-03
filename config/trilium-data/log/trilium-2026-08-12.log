@@ -1,0 +1,1797 @@
+20:32:58.174 DB not initialized, please visit setup page
+20:32:58.175 DB size: 4 KB
+20:32:58.241 Generated session secret
+20:32:58.764 {
+  "appVersion": "0.63.7",
+  "dbVersion": 228,
+  "nodeVersion": "v18.15.0",
+  "syncVersion": 32,
+  "buildDate": "2024-05-30T06:59:06+02:00",
+  "buildRevision": "95d46b7ce7e0036eeb72b43e1815cc5c00dc214c",
+  "dataDirectory": "/home/diener/.local/share/trilium-data",
+  "clipperProtocolVersion": "1.0",
+  "utcDateTime": "2026-08-13T01:32:58.173Z"
+}
+20:32:58.764 CPU model: AMD Ryzen 5 5500, logical cores: 12 freq: 4241 Mhz
+20:32:58.765 Trusted reverse proxy: false
+20:32:58.765 App HTTP server starting up at port 37840
+20:32:58.768 Listening on port 37840
+20:33:07.354 Creating database schema ...
+20:33:07.356 Becca (note cache) load took 1ms
+20:33:07.356 Creating root note ...
+20:33:07.363 Created option "revisionSnapshotTimeInterval" with default value "600"
+20:33:07.363 Created option "protectedSessionTimeout" with default value "600"
+20:33:07.363 Created option "zoomFactor" with default value "1.0"
+20:33:07.363 Created option "overrideThemeFonts" with default value "false"
+20:33:07.363 Created option "mainFontFamily" with default value "theme"
+20:33:07.363 Created option "mainFontSize" with default value "100"
+20:33:07.363 Created option "treeFontFamily" with default value "theme"
+20:33:07.364 Created option "treeFontSize" with default value "100"
+20:33:07.364 Created option "detailFontFamily" with default value "theme"
+20:33:07.364 Created option "detailFontSize" with default value "110"
+20:33:07.364 Created option "monospaceFontFamily" with default value "theme"
+20:33:07.364 Created option "monospaceFontSize" with default value "110"
+20:33:07.364 Created option "spellCheckEnabled" with default value "true"
+20:33:07.364 Created option "spellCheckLanguageCode" with default value "en-US"
+20:33:07.364 Created option "imageMaxWidthHeight" with default value "2000"
+20:33:07.365 Created option "imageJpegQuality" with default value "75"
+20:33:07.365 Created option "autoFixConsistencyIssues" with default value "true"
+20:33:07.365 Created option "vimKeymapEnabled" with default value "false"
+20:33:07.365 Created option "codeLineWrapEnabled" with default value "true"
+20:33:07.365 Created option "codeNotesMimeTypes" with default value "["text/x-csrc","text/x-c++src","text/x-csharp","text/css","text/x-go","text/x-groovy","text/x-haskell","text/html","message/http","text/x-java","application/javascript;env=frontend","application/javascript;env=backend","application/json","text/x-kotlin","text/x-markdown","text/x-perl","text/x-php","text/x-python","text/x-ruby",null,"text/x-sql","text/x-sqlite;schema=trilium","text/x-swift","text/xml","text/x-yaml","text/x-sh"]"
+20:33:07.365 Created option "leftPaneWidth" with default value "25"
+20:33:07.365 Created option "leftPaneVisible" with default value "true"
+20:33:07.365 Created option "rightPaneWidth" with default value "25"
+20:33:07.366 Created option "rightPaneVisible" with default value "true"
+20:33:07.366 Created option "nativeTitleBarVisible" with default value "false"
+20:33:07.366 Created option "eraseEntitiesAfterTimeInSeconds" with default value "604800"
+20:33:07.366 Created option "hideArchivedNotes_main" with default value "false"
+20:33:07.366 Created option "debugModeEnabled" with default value "false"
+20:33:07.366 Created option "headingStyle" with default value "underline"
+20:33:07.366 Created option "autoCollapseNoteTree" with default value "true"
+20:33:07.367 Created option "autoReadonlySizeText" with default value "10000"
+20:33:07.367 Created option "autoReadonlySizeCode" with default value "30000"
+20:33:07.367 Created option "dailyBackupEnabled" with default value "true"
+20:33:07.367 Created option "weeklyBackupEnabled" with default value "true"
+20:33:07.367 Created option "monthlyBackupEnabled" with default value "true"
+20:33:07.367 Created option "maxContentWidth" with default value "1200"
+20:33:07.367 Created option "compressImages" with default value "true"
+20:33:07.367 Created option "downloadImagesAutomatically" with default value "true"
+20:33:07.367 Created option "minTocHeadings" with default value "5"
+20:33:07.368 Created option "highlightsList" with default value "["bold","italic","underline","color","bgColor"]"
+20:33:07.368 Created option "checkForUpdates" with default value "true"
+20:33:07.368 Created option "disableTray" with default value "false"
+20:33:07.368 Created option "eraseUnusedAttachmentsAfterSeconds" with default value "2592000"
+20:33:07.368 Created option "customSearchEngineName" with default value "DuckDuckGo"
+20:33:07.368 Created option "customSearchEngineUrl" with default value "https://duckduckgo.com/?q={keyword}"
+20:33:07.368 Created option "promotedAttributesOpenInRibbon" with default value "true"
+20:33:07.368 Created option "editedNotesOpenInRibbon" with default value "true"
+20:33:07.369 Created option "keyboardShortcutsBackInNoteHistory" with default value "["Alt+Left"]"
+20:33:07.369 Created option "keyboardShortcutsForwardInNoteHistory" with default value "["Alt+Right"]"
+20:33:07.369 Created option "keyboardShortcutsJumpToNote" with default value "["Ctrl+J"]"
+20:33:07.369 Created option "keyboardShortcutsScrollToActiveNote" with default value "["Ctrl+."]"
+20:33:07.369 Created option "keyboardShortcutsQuickSearch" with default value "["Ctrl+S"]"
+20:33:07.369 Created option "keyboardShortcutsSearchInSubtree" with default value "["Ctrl+Shift+S"]"
+20:33:07.369 Created option "keyboardShortcutsExpandSubtree" with default value "[]"
+20:33:07.369 Created option "keyboardShortcutsCollapseTree" with default value "["Alt+C"]"
+20:33:07.370 Created option "keyboardShortcutsCollapseSubtree" with default value "["Alt+-"]"
+20:33:07.370 Created option "keyboardShortcutsSortChildNotes" with default value "["Alt+S"]"
+20:33:07.370 Created option "keyboardShortcutsCreateNoteAfter" with default value "["Ctrl+O"]"
+20:33:07.370 Created option "keyboardShortcutsCreateNoteInto" with default value "["Ctrl+P"]"
+20:33:07.370 Created option "keyboardShortcutsCreateNoteIntoInbox" with default value "["global:Ctrl+Alt+P"]"
+20:33:07.370 Created option "keyboardShortcutsDeleteNotes" with default value "["Delete"]"
+20:33:07.370 Created option "keyboardShortcutsMoveNoteUp" with default value "["Ctrl+Up"]"
+20:33:07.370 Created option "keyboardShortcutsMoveNoteDown" with default value "["Ctrl+Down"]"
+20:33:07.371 Created option "keyboardShortcutsMoveNoteUpInHierarchy" with default value "["Ctrl+Left"]"
+20:33:07.371 Created option "keyboardShortcutsMoveNoteDownInHierarchy" with default value "["Ctrl+Right"]"
+20:33:07.371 Created option "keyboardShortcutsEditNoteTitle" with default value "["Enter"]"
+20:33:07.371 Created option "keyboardShortcutsEditBranchPrefix" with default value "["F2"]"
+20:33:07.371 Created option "keyboardShortcutsCloneNotesTo" with default value "["Ctrl+Shift+C"]"
+20:33:07.371 Created option "keyboardShortcutsMoveNotesTo" with default value "["Ctrl+Shift+X"]"
+20:33:07.371 Created option "keyboardShortcutsCopyNotesToClipboard" with default value "["Ctrl+C"]"
+20:33:07.371 Created option "keyboardShortcutsPasteNotesFromClipboard" with default value "["Ctrl+V"]"
+20:33:07.371 Created option "keyboardShortcutsCutNotesToClipboard" with default value "["Ctrl+X"]"
+20:33:07.372 Created option "keyboardShortcutsSelectAllNotesInParent" with default value "["Ctrl+A"]"
+20:33:07.372 Created option "keyboardShortcutsAddNoteAboveToSelection" with default value "["Shift+Up"]"
+20:33:07.372 Created option "keyboardShortcutsAddNoteBelowToSelection" with default value "["Shift+Down"]"
+20:33:07.372 Created option "keyboardShortcutsDuplicateSubtree" with default value "[]"
+20:33:07.372 Created option "keyboardShortcutsOpenNewTab" with default value "["Ctrl+T"]"
+20:33:07.372 Created option "keyboardShortcutsCloseActiveTab" with default value "["Ctrl+W"]"
+20:33:07.372 Created option "keyboardShortcutsReopenLastTab" with default value "["Ctrl+Shift+T"]"
+20:33:07.372 Created option "keyboardShortcutsActivateNextTab" with default value "["Ctrl+Tab","Ctrl+PageDown"]"
+20:33:07.373 Created option "keyboardShortcutsActivatePreviousTab" with default value "["Ctrl+Shift+Tab","Ctrl+PageUp"]"
+20:33:07.373 Created option "keyboardShortcutsOpenNewWindow" with default value "[]"
+20:33:07.373 Created option "keyboardShortcutsToggleTray" with default value "[]"
+20:33:07.373 Created option "keyboardShortcutsFirstTab" with default value "["Ctrl+1"]"
+20:33:07.373 Created option "keyboardShortcutsSecondTab" with default value "["Ctrl+2"]"
+20:33:07.373 Created option "keyboardShortcutsThirdTab" with default value "["Ctrl+3"]"
+20:33:07.373 Created option "keyboardShortcutsFourthTab" with default value "["Ctrl+4"]"
+20:33:07.373 Created option "keyboardShortcutsFifthTab" with default value "["Ctrl+5"]"
+20:33:07.373 Created option "keyboardShortcutsSixthTab" with default value "["Ctrl+6"]"
+20:33:07.374 Created option "keyboardShortcutsSeventhTab" with default value "["Ctrl+7"]"
+20:33:07.374 Created option "keyboardShortcutsEigthTab" with default value "["Ctrl+8"]"
+20:33:07.374 Created option "keyboardShortcutsNinthTab" with default value "["Ctrl+9"]"
+20:33:07.374 Created option "keyboardShortcutsLastTab" with default value "[]"
+20:33:07.374 Created option "keyboardShortcutsShowNoteSource" with default value "[]"
+20:33:07.374 Created option "keyboardShortcutsShowOptions" with default value "[]"
+20:33:07.374 Created option "keyboardShortcutsShowRevisions" with default value "[]"
+20:33:07.374 Created option "keyboardShortcutsShowRecentChanges" with default value "[]"
+20:33:07.375 Created option "keyboardShortcutsShowSQLConsole" with default value "["Alt+O"]"
+20:33:07.375 Created option "keyboardShortcutsShowBackendLog" with default value "[]"
+20:33:07.375 Created option "keyboardShortcutsShowHelp" with default value "["F1"]"
+20:33:07.375 Created option "keyboardShortcutsAddLinkToText" with default value "["Ctrl+L"]"
+20:33:07.375 Created option "keyboardShortcutsFollowLinkUnderCursor" with default value "["Ctrl+Enter"]"
+20:33:07.375 Created option "keyboardShortcutsInsertDateTimeToText" with default value "["Alt+T"]"
+20:33:07.376 Created option "keyboardShortcutsPasteMarkdownIntoText" with default value "[]"
+20:33:07.376 Created option "keyboardShortcutsCutIntoNote" with default value "[]"
+20:33:07.376 Created option "keyboardShortcutsAddIncludeNoteToText" with default value "[]"
+20:33:07.376 Created option "keyboardShortcutsEditReadOnlyNote" with default value "[]"
+20:33:07.376 Created option "keyboardShortcutsAddNewLabel" with default value "["Alt+L"]"
+20:33:07.377 Created option "keyboardShortcutsAddNewRelation" with default value "["Alt+R"]"
+20:33:07.377 Created option "keyboardShortcutsToggleRibbonTabBasicProperties" with default value "[]"
+20:33:07.377 Created option "keyboardShortcutsToggleRibbonTabBookProperties" with default value "[]"
+20:33:07.377 Created option "keyboardShortcutsToggleRibbonTabFileProperties" with default value "[]"
+20:33:07.377 Created option "keyboardShortcutsToggleRibbonTabImageProperties" with default value "[]"
+20:33:07.377 Created option "keyboardShortcutsToggleRibbonTabOwnedAttributes" with default value "["Alt+A"]"
+20:33:07.378 Created option "keyboardShortcutsToggleRibbonTabInheritedAttributes" with default value "[]"
+20:33:07.378 Created option "keyboardShortcutsToggleRibbonTabPromotedAttributes" with default value "[]"
+20:33:07.378 Created option "keyboardShortcutsToggleRibbonTabNoteMap" with default value "[]"
+20:33:07.378 Created option "keyboardShortcutsToggleRibbonTabNoteInfo" with default value "[]"
+20:33:07.378 Created option "keyboardShortcutsToggleRibbonTabNotePaths" with default value "[]"
+20:33:07.379 Created option "keyboardShortcutsToggleRibbonTabSimilarNotes" with default value "[]"
+20:33:07.379 Created option "keyboardShortcutsToggleRightPane" with default value "[]"
+20:33:07.379 Created option "keyboardShortcutsPrintActiveNote" with default value "[]"
+20:33:07.379 Created option "keyboardShortcutsOpenNoteExternally" with default value "[]"
+20:33:07.379 Created option "keyboardShortcutsRenderActiveNote" with default value "[]"
+20:33:07.379 Created option "keyboardShortcutsRunActiveNote" with default value "["Ctrl+Enter"]"
+20:33:07.380 Created option "keyboardShortcutsToggleNoteHoisting" with default value "["Alt+H"]"
+20:33:07.380 Created option "keyboardShortcutsUnhoist" with default value "["Alt+U"]"
+20:33:07.380 Created option "keyboardShortcutsReloadFrontendApp" with default value "["F5","Ctrl+R"]"
+20:33:07.380 Created option "keyboardShortcutsOpenDevTools" with default value "["Ctrl+Shift+I"]"
+20:33:07.380 Created option "keyboardShortcutsFindInText" with default value "["Ctrl+F"]"
+20:33:07.380 Created option "keyboardShortcutsToggleLeftPane" with default value "[]"
+20:33:07.381 Created option "keyboardShortcutsToggleFullscreen" with default value "["F11"]"
+20:33:07.381 Created option "keyboardShortcutsZoomOut" with default value "["Ctrl+-"]"
+20:33:07.381 Created option "keyboardShortcutsZoomIn" with default value "["Ctrl+="]"
+20:33:07.381 Created option "keyboardShortcutsZoomReset" with default value "["Ctrl+0"]"
+20:33:07.381 Created option "keyboardShortcutsCopyWithoutFormatting" with default value "["Ctrl+Alt+C"]"
+20:33:07.381 Created option "keyboardShortcutsForceSaveRevision" with default value "[]"
+20:33:07.385 Importing demo content ...
+20:33:07.420 Created new note 'fQ2QCEn1yAyd', branch 'root_fQ2QCEn1yAyd' of type 'text', mime 'text/html'
+20:33:07.425 Created new note 'rP0cgq56R0N0', branch 'fQ2QCEn1yAyd_rP0cgq56R0N0' of type 'text', mime 'text/html'
+20:33:07.427 Created new note 'Kv32L8HJHx2U', branch 'rP0cgq56R0N0_Kv32L8HJHx2U' of type 'text', mime 'text/html'
+20:33:07.428 Created new note 'hzAuTbdDE7AU', branch 'rP0cgq56R0N0_hzAuTbdDE7AU' of type 'text', mime 'text/html'
+20:33:07.430 Created new note 'd2AItV0adQLI', branch 'rP0cgq56R0N0_d2AItV0adQLI' of type 'text', mime 'text/html'
+20:33:07.433 Created new note 'XiW3yOdFGYIL', branch 'd2AItV0adQLI_XiW3yOdFGYIL' of type 'file', mime 'application/pdf'
+20:33:07.434 Created new note 'TKoDLjc0vllp', branch 'fQ2QCEn1yAyd_TKoDLjc0vllp' of type 'book', mime ''
+20:33:07.436 Created new note 'PzguajXH1ynE', branch 'TKoDLjc0vllp_PzguajXH1ynE' of type 'text', mime 'text/html'
+20:33:07.437 Created new note 'b6oYOQt7oaSi', branch 'TKoDLjc0vllp_b6oYOQt7oaSi' of type 'text', mime 'text/html'
+20:33:07.439 Created new note '8TPQgg8d5d0S', branch 'TKoDLjc0vllp_8TPQgg8d5d0S' of type 'text', mime 'text/html'
+20:33:07.440 Created new note 'cg4cRUa6xMp7', branch 'TKoDLjc0vllp_cg4cRUa6xMp7' of type 'text', mime 'text/html'
+20:33:07.441 Created new note 'mdimY1ZTphuO', branch 'TKoDLjc0vllp_mdimY1ZTphuO' of type 'text', mime 'text/html'
+20:33:07.442 Created new note 'VvXAe3z3AGMK', branch 'fQ2QCEn1yAyd_VvXAe3z3AGMK' of type 'text', mime 'text/html'
+20:33:07.443 Created new note 'njuDxBj3ak7u', branch 'VvXAe3z3AGMK_njuDxBj3ak7u' of type 'text', mime 'text/html'
+20:33:07.444 Created new note 'PvBhfMH6UuCp', branch 'njuDxBj3ak7u_PvBhfMH6UuCp' of type 'text', mime 'text/html'
+20:33:07.445 Created new note 'aLk37BRIp9JH', branch 'PvBhfMH6UuCp_aLk37BRIp9JH' of type 'text', mime 'text/html'
+20:33:07.447 Created new note 'WA0sJXLWjaMd', branch 'aLk37BRIp9JH_WA0sJXLWjaMd' of type 'text', mime 'text/html'
+20:33:07.448 Created new note 'hx9KnvluhBHH', branch 'aLk37BRIp9JH_hx9KnvluhBHH' of type 'text', mime 'text/html'
+20:33:07.450 Created new note 'uYHaVAl7ifD8', branch 'aLk37BRIp9JH_uYHaVAl7ifD8' of type 'text', mime 'text/html'
+20:33:07.450 Created new note 'IBMV8ZUJhKm7', branch 'njuDxBj3ak7u_IBMV8ZUJhKm7' of type 'text', mime 'text/html'
+20:33:07.452 Created new note 'o9LjpfMFScFG', branch 'IBMV8ZUJhKm7_o9LjpfMFScFG' of type 'text', mime 'text/html'
+20:33:07.453 Created new note 'KIQd6OpfTqdT', branch 'o9LjpfMFScFG_KIQd6OpfTqdT' of type 'text', mime 'text/html'
+20:33:07.453 Created new note 'LSnFjyYmL3CZ', branch 'o9LjpfMFScFG_LSnFjyYmL3CZ' of type 'book', mime 'text/html'
+20:33:07.455 Created new note '6dtyXRmizxDy', branch 'LSnFjyYmL3CZ_6dtyXRmizxDy' of type 'image', mime 'image/jpg'
+20:33:07.457 Created new note 'VwFAHqmTMPov', branch 'LSnFjyYmL3CZ_VwFAHqmTMPov' of type 'image', mime 'image/jpg'
+20:33:07.461 Created new note 'i5XYu40tOEyR', branch 'LSnFjyYmL3CZ_i5XYu40tOEyR' of type 'image', mime 'image/jpg'
+20:33:07.464 Created new note 'lwRFHlxigIYe', branch 'LSnFjyYmL3CZ_lwRFHlxigIYe' of type 'image', mime 'image/jpg'
+20:33:07.466 Created new note 'dJCUOnPaUz8d', branch 'LSnFjyYmL3CZ_dJCUOnPaUz8d' of type 'image', mime 'image/jpg'
+20:33:07.470 Created new note '3N5Eh5AUP0iS', branch 'LSnFjyYmL3CZ_3N5Eh5AUP0iS' of type 'image', mime 'image/jpg'
+20:33:07.473 Created new note 'i02xTUxYQ46m', branch 'LSnFjyYmL3CZ_i02xTUxYQ46m' of type 'image', mime 'image/jpg'
+20:33:07.475 Created new note '61AkoVHESXIu', branch 'LSnFjyYmL3CZ_61AkoVHESXIu' of type 'image', mime 'image/jpg'
+20:33:07.478 Created new note 'Xn9aVkzRDbSJ', branch 'LSnFjyYmL3CZ_Xn9aVkzRDbSJ' of type 'image', mime 'image/jpg'
+20:33:07.481 Created new note '1siChsQpicpt', branch 'LSnFjyYmL3CZ_1siChsQpicpt' of type 'image', mime 'image/jpg'
+20:33:07.485 Created new note '9nelr2Utgb27', branch 'LSnFjyYmL3CZ_9nelr2Utgb27' of type 'image', mime 'image/jpg'
+20:33:07.488 Created new note 'JduobKggEqa4', branch 'LSnFjyYmL3CZ_JduobKggEqa4' of type 'image', mime 'image/jpg'
+20:33:07.489 Created new note 'UB6q1ZUG3Xqh', branch 'o9LjpfMFScFG_UB6q1ZUG3Xqh' of type 'text', mime 'text/html'
+20:33:07.501 Created new note 'u9LVU4QM9Ytk', branch 'IBMV8ZUJhKm7_u9LVU4QM9Ytk' of type 'text', mime 'text/html'
+20:33:07.504 Created new note 'ZyvWAdKiHXA9', branch 'u9LVU4QM9Ytk_ZyvWAdKiHXA9' of type 'text', mime 'text/html'
+20:33:07.505 Created new note '4AwEL0fh9BsP', branch 'IBMV8ZUJhKm7_4AwEL0fh9BsP' of type 'text', mime 'text/html'
+20:33:07.506 Created new note 'GzW4cqBa5ZEk', branch 'IBMV8ZUJhKm7_GzW4cqBa5ZEk' of type 'text', mime 'text/html'
+20:33:07.508 Created new note '9xkrYX3di7Ez', branch 'GzW4cqBa5ZEk_9xkrYX3di7Ez' of type 'text', mime 'text/html'
+20:33:07.509 Created new note 'XjToRyKJ5z4I', branch 'GzW4cqBa5ZEk_XjToRyKJ5z4I' of type 'text', mime 'text/html'
+20:33:07.510 Created new note 'cFiV5y2KPEXl', branch 'IBMV8ZUJhKm7_cFiV5y2KPEXl' of type 'text', mime 'text/html'
+20:33:07.511 Created new note 'jUo5x4tYfth3', branch 'cFiV5y2KPEXl_jUo5x4tYfth3' of type 'text', mime 'text/html'
+20:33:07.512 Created new note 'Cxwgj6gKe2JI', branch 'cFiV5y2KPEXl_Cxwgj6gKe2JI' of type 'text', mime 'text/html'
+20:33:07.513 Created new note 'BkBjSKfsxUXN', branch 'Cxwgj6gKe2JI_BkBjSKfsxUXN' of type 'text', mime 'text/html'
+20:33:07.514 Created new note 'T2SUhLavAxZV', branch 'IBMV8ZUJhKm7_T2SUhLavAxZV' of type 'text', mime 'text/html'
+20:33:07.515 Created new note 'qDLF3Fa24WON', branch 'IBMV8ZUJhKm7_qDLF3Fa24WON' of type 'text', mime 'text/html'
+20:33:07.517 Created new note 'k4SAEm3idM1Y', branch 'qDLF3Fa24WON_k4SAEm3idM1Y' of type 'text', mime 'text/html'
+20:33:07.519 Created new note 'LSfyr6CLE6Vo', branch 'qDLF3Fa24WON_LSfyr6CLE6Vo' of type 'text', mime 'text/html'
+20:33:07.520 Created new note 'GqpL6gHeeQeJ', branch 'IBMV8ZUJhKm7_GqpL6gHeeQeJ' of type 'text', mime 'text/html'
+20:33:07.521 Created new note 'SdjWmYFci45W', branch 'njuDxBj3ak7u_SdjWmYFci45W' of type 'text', mime 'text/html'
+20:33:07.523 Created new note 'tFvk4E9VRPtV', branch 'SdjWmYFci45W_tFvk4E9VRPtV' of type 'text', mime 'text/html'
+20:33:07.524 Created new note 'MVcCRmPWft6F', branch 'tFvk4E9VRPtV_MVcCRmPWft6F' of type 'text', mime 'text/html'
+20:33:07.525 Created new note 'epL0f8olvv4r', branch 'tFvk4E9VRPtV_epL0f8olvv4r' of type 'text', mime 'text/html'
+20:33:07.526 Created new note 'BI2k4JHMNmPW', branch 'tFvk4E9VRPtV_BI2k4JHMNmPW' of type 'text', mime 'text/html'
+20:33:07.528 Created new note 'TWObGrxK488O', branch 'SdjWmYFci45W_TWObGrxK488O' of type 'text', mime 'text/html'
+20:33:07.529 Created new note '1TQ7iwxzO64G', branch 'VvXAe3z3AGMK_1TQ7iwxzO64G' of type 'text', mime 'text/html'
+20:33:07.530 Created new note '3EF9EfoUPsxP', branch 'fQ2QCEn1yAyd_3EF9EfoUPsxP' of type 'text', mime 'text/html'
+20:33:07.531 Created new note 'mj3VnTycPft3', branch '3EF9EfoUPsxP_mj3VnTycPft3' of type 'text', mime 'text/html'
+20:33:07.532 Created new note 'EPf40LrSqEFe', branch '3EF9EfoUPsxP_EPf40LrSqEFe' of type 'text', mime 'text/html'
+20:33:07.534 Created new note 'stzHfJ7pUEwb', branch 'EPf40LrSqEFe_stzHfJ7pUEwb' of type 'text', mime 'text/html'
+20:33:07.535 Created new note 'GThCHIE78aBm', branch 'EPf40LrSqEFe_GThCHIE78aBm' of type 'text', mime 'text/html'
+20:33:07.536 Created new note 'nFDhw1RleaWX', branch 'GThCHIE78aBm_nFDhw1RleaWX' of type 'text', mime 'text/html'
+20:33:07.537 Created new note '6TTwfV4hVO6i', branch 'GThCHIE78aBm_6TTwfV4hVO6i' of type 'text', mime 'text/html'
+20:33:07.538 Created new note 'uVBDlEvXxMGS', branch 'EPf40LrSqEFe_uVBDlEvXxMGS' of type 'text', mime 'text/html'
+20:33:07.540 Created new note 'ES1ejHVmDagB', branch 'uVBDlEvXxMGS_ES1ejHVmDagB' of type 'text', mime 'text/html'
+20:33:07.540 Created new note 'j8aXUWRlpbXi', branch '3EF9EfoUPsxP_j8aXUWRlpbXi' of type 'text', mime 'text/html'
+20:33:07.541 Created new note '5pUo6BmYC9lx', branch 'j8aXUWRlpbXi_5pUo6BmYC9lx' of type 'text', mime 'text/html'
+20:33:07.542 Created new note 'YkILeH9uCWnm', branch '3EF9EfoUPsxP_YkILeH9uCWnm' of type 'book', mime 'text/html'
+20:33:07.543 Created new note 'Vjmaa3Zz3CpK', branch 'YkILeH9uCWnm_Vjmaa3Zz3CpK' of type 'text', mime 'text/html'
+20:33:07.545 Created new note 'mCkWphe3Q8Mh', branch 'YkILeH9uCWnm_mCkWphe3Q8Mh' of type 'text', mime 'text/html'
+20:33:07.546 Created new note 'FHU5SiWVs7i4', branch 'mCkWphe3Q8Mh_FHU5SiWVs7i4' of type 'text', mime 'text/html'
+20:33:07.547 Created new note 'KnlFy3Jagiia', branch 'mCkWphe3Q8Mh_KnlFy3Jagiia' of type 'text', mime 'text/html'
+20:33:07.548 Created new note 'tzHdRSGrgM1N', branch 'mCkWphe3Q8Mh_tzHdRSGrgM1N' of type 'text', mime 'text/html'
+20:33:07.549 Created new note '4Fa9Cir3bLpj', branch 'YkILeH9uCWnm_4Fa9Cir3bLpj' of type 'text', mime 'text/html'
+20:33:07.551 Created new note 'WgvgktNHFMbQ', branch 'fQ2QCEn1yAyd_WgvgktNHFMbQ' of type 'canvas', mime 'application/json'
+20:33:07.553 Created new note '3gvrFO8PhAOq', branch 'fQ2QCEn1yAyd_3gvrFO8PhAOq' of type 'book', mime ''
+20:33:07.562 Created new note 'IWvwCrl3eptY', branch '3gvrFO8PhAOq_IWvwCrl3eptY' of type 'mermaid', mime 'text/mermaid'
+20:33:07.565 Created new note 'lFsM3k1HWQyn', branch '3gvrFO8PhAOq_lFsM3k1HWQyn' of type 'mermaid', mime 'text/mermaid'
+20:33:07.567 Created new note 'bsG4mfyChgb0', branch '3gvrFO8PhAOq_bsG4mfyChgb0' of type 'mermaid', mime 'text/plain'
+20:33:07.569 Created new note 'QN2mOtz2xfkz', branch '3gvrFO8PhAOq_QN2mOtz2xfkz' of type 'mermaid', mime 'text/plain'
+20:33:07.571 Created new note 'rMWF7VBdpA66', branch '3gvrFO8PhAOq_rMWF7VBdpA66' of type 'mermaid', mime 'text/plain'
+20:33:07.573 Created new note 'Twxwut3afrs0', branch '3gvrFO8PhAOq_Twxwut3afrs0' of type 'mermaid', mime 'text/mermaid'
+20:33:07.575 Created new note '3coF7Qy83Xyk', branch '3gvrFO8PhAOq_3coF7Qy83Xyk' of type 'mermaid', mime 'text/plain'
+20:33:07.577 Created new note 'HTAwEIdIlCJu', branch '3gvrFO8PhAOq_HTAwEIdIlCJu' of type 'mermaid', mime 'text/plain'
+20:33:07.579 Created new note 'XzEFAuuIjog9', branch '3gvrFO8PhAOq_XzEFAuuIjog9' of type 'mermaid', mime 'text/plain'
+20:33:07.582 Created new note 'pPAgeMKxzw6I', branch '3gvrFO8PhAOq_pPAgeMKxzw6I' of type 'mermaid', mime 'text/plain'
+20:33:07.584 Created new note 'LbIa1vcHF0kb', branch '3gvrFO8PhAOq_LbIa1vcHF0kb' of type 'mermaid', mime 'text/mermaid'
+20:33:07.587 Created new note '1hYvqDFoBwmq', branch '3gvrFO8PhAOq_1hYvqDFoBwmq' of type 'mermaid', mime 'text/plain'
+20:33:07.595 Created new note '6mCVHSEIrwAE', branch 'fQ2QCEn1yAyd_6mCVHSEIrwAE' of type 'text', mime 'text/html'
+20:33:07.597 Created new note 'zn2RL4zYWXZc', branch '6mCVHSEIrwAE_zn2RL4zYWXZc' of type 'text', mime 'text/html'
+20:33:07.599 Created new note 'E51WFilI751o', branch '6mCVHSEIrwAE_E51WFilI751o' of type 'text', mime 'text/html'
+20:33:07.600 Created new note 'P0GsfvNHEDGH', branch 'E51WFilI751o_P0GsfvNHEDGH' of type 'text', mime 'text/html'
+20:33:07.601 Created new note 'td05lRBmY96e', branch '6mCVHSEIrwAE_td05lRBmY96e' of type 'text', mime 'text/html'
+20:33:07.602 Created new note 'gRvumdsQw48F', branch 'fQ2QCEn1yAyd_gRvumdsQw48F' of type 'text', mime 'text/html'
+20:33:07.603 Created new note 'M3C4X0jJ4UYQ', branch 'gRvumdsQw48F_M3C4X0jJ4UYQ' of type 'text', mime 'text/html'
+20:33:07.604 Created new note 'A5xg25rHiWg9', branch 'gRvumdsQw48F_A5xg25rHiWg9' of type 'text', mime 'text/html'
+20:33:07.605 Created new note 'DZ3VIBDbMbCn', branch 'gRvumdsQw48F_DZ3VIBDbMbCn' of type 'text', mime 'text/html'
+20:33:07.606 Created new note 'hyxDy6WEVp5y', branch 'fQ2QCEn1yAyd_hyxDy6WEVp5y' of type 'code', mime 'text/css'
+20:33:07.608 Created new note 'aeWB4pGf6G13', branch 'hyxDy6WEVp5y_aeWB4pGf6G13' of type 'file', mime 'application/octet-stream'
+20:33:07.610 Created new note 'vZQwu2ZzhMS0', branch 'hyxDy6WEVp5y_vZQwu2ZzhMS0' of type 'file', mime 'application/octet-stream'
+20:33:07.611 Created new note 'wNAo0NUodrnn', branch 'fQ2QCEn1yAyd_wNAo0NUodrnn' of type 'text', mime 'text/html'
+20:33:07.613 Created new note 'T0PomcUOQQX0', branch 'wNAo0NUodrnn_T0PomcUOQQX0' of type 'code', mime 'application/javascript;env=frontend'
+20:33:07.613 Created new note 'Atonl1uEmKXU', branch 'wNAo0NUodrnn_Atonl1uEmKXU' of type 'render', mime 'text/html'
+20:33:07.614 Created new note '9AXNK5bZXXRj', branch 'Atonl1uEmKXU_9AXNK5bZXXRj' of type 'code', mime 'text/html'
+20:33:07.616 Created new note 'zZJKdCsKov2k', branch '9AXNK5bZXXRj_zZJKdCsKov2k' of type 'code', mime 'application/javascript;env=frontend'
+20:33:07.620 Created new note 'aJ3A6wv71Jl4', branch 'zZJKdCsKov2k_aJ3A6wv71Jl4' of type 'file', mime 'text/javascript'
+20:33:07.621 Created new note '0Q5fX0GxdrBW', branch 'wNAo0NUodrnn_0Q5fX0GxdrBW' of type 'book', mime ''
+20:33:07.630 Created new note 'm6AHTEls9Fzz', branch '0Q5fX0GxdrBW_m6AHTEls9Fzz' of type 'render', mime ''
+20:33:07.632 Created new note 'SDmfpOiNk4AP', branch 'm6AHTEls9Fzz_SDmfpOiNk4AP' of type 'code', mime 'text/html'
+20:33:07.633 Created new note 'YnZUthVWkKIA', branch 'SDmfpOiNk4AP_YnZUthVWkKIA' of type 'code', mime 'application/javascript;env=frontend'
+20:33:07.634 Created new note 'VEIoo7bQ7nK6', branch 'YnZUthVWkKIA_VEIoo7bQ7nK6' of type 'code', mime 'application/javascript;env=frontend'
+20:33:07.636 Created new note 'YUVn2n4aZtIm', branch 'VEIoo7bQ7nK6_YUVn2n4aZtIm' of type 'file', mime 'text/javascript'
+20:33:07.638 Created new note 'mLcbj80cLdhP', branch 'YnZUthVWkKIA_mLcbj80cLdhP' of type 'code', mime 'application/javascript;env=frontend'
+20:33:07.638 Created new note 'sn44P67tKPvp', branch '0Q5fX0GxdrBW_sn44P67tKPvp' of type 'render', mime ''
+20:33:07.639 Created new note 'CHjaDZXzCVnq', branch 'sn44P67tKPvp_CHjaDZXzCVnq' of type 'code', mime 'text/html'
+20:33:07.641 Created new note 'cOaNcldFxoEg', branch 'CHjaDZXzCVnq_cOaNcldFxoEg' of type 'code', mime 'application/javascript;env=frontend'
+20:33:07.641 Created new note 'eq8bh6NDbqbo', branch '0Q5fX0GxdrBW_eq8bh6NDbqbo' of type 'render', mime ''
+20:33:07.642 Created new note 'iNZPUcELoACq', branch 'eq8bh6NDbqbo_iNZPUcELoACq' of type 'code', mime 'text/html'
+20:33:07.643 Created new note '3utdAF0fZo96', branch 'iNZPUcELoACq_3utdAF0fZo96' of type 'code', mime 'application/javascript;env=frontend'
+20:33:07.644 Created new note 'nYyobYNMgiF4', branch '0Q5fX0GxdrBW_nYyobYNMgiF4' of type 'render', mime ''
+20:33:07.645 Created new note 'TbdyT8Z4kOFI', branch 'nYyobYNMgiF4_TbdyT8Z4kOFI' of type 'code', mime 'text/html'
+20:33:07.646 Created new note 'yzea7Z5AE1s3', branch 'TbdyT8Z4kOFI_yzea7Z5AE1s3' of type 'code', mime 'application/javascript;env=frontend'
+20:33:07.647 Created new note 'MO5DqhCixwIS', branch '0Q5fX0GxdrBW_MO5DqhCixwIS' of type 'render', mime ''
+20:33:07.648 Created new note '3Q6fZY0gKyiq', branch 'MO5DqhCixwIS_3Q6fZY0gKyiq' of type 'code', mime 'text/html'
+20:33:07.649 Created new note 'hkctyMbOlI4r', branch '3Q6fZY0gKyiq_hkctyMbOlI4r' of type 'code', mime 'application/javascript;env=frontend'
+20:33:07.650 Created new note 'tgL61FCNMPKi', branch 'hkctyMbOlI4r_tgL61FCNMPKi' of type 'code', mime 'application/javascript;env=frontend'
+20:33:07.651 Created new note 'LwBWRU9rsuXj', branch '0Q5fX0GxdrBW_LwBWRU9rsuXj' of type 'render', mime ''
+20:33:07.652 Created new note 'PUldUdwdHwpm', branch 'LwBWRU9rsuXj_PUldUdwdHwpm' of type 'code', mime 'text/html'
+20:33:07.653 Created new note 'pHQReguEHo7l', branch 'PUldUdwdHwpm_pHQReguEHo7l' of type 'code', mime 'application/javascript;env=frontend'
+20:33:07.654 Created new note 'UOE8OtmQhcGZ', branch 'wNAo0NUodrnn_UOE8OtmQhcGZ' of type 'code', mime 'application/javascript;env=backend'
+20:33:07.655 Created new note 'QHA3TFVexdSS', branch 'wNAo0NUodrnn_QHA3TFVexdSS' of type 'text', mime 'text/html'
+20:33:07.656 Created new note 'jLdaMYXXFcJx', branch 'QHA3TFVexdSS_jLdaMYXXFcJx' of type 'text', mime 'text/html'
+20:33:07.657 Created new note 'sKMrv8BeTYWY', branch 'jLdaMYXXFcJx_sKMrv8BeTYWY' of type 'text', mime 'text/html'
+20:33:07.658 Created new note 'ZfirMIWIhMfM', branch 'jLdaMYXXFcJx_ZfirMIWIhMfM' of type 'text', mime 'text/html'
+20:33:07.659 Created new note 'IVx6sWRRO53k', branch 'ZfirMIWIhMfM_IVx6sWRRO53k' of type 'text', mime 'text/html'
+20:33:07.660 Created new note 'WjkgvRjPVRXm', branch 'jLdaMYXXFcJx_WjkgvRjPVRXm' of type 'text', mime 'text/html'
+20:33:07.661 Created new note 'OyyCheHNxxis', branch 'WjkgvRjPVRXm_OyyCheHNxxis' of type 'text', mime 'text/html'
+20:33:07.661 Created new note 'wJe91G1n8ymK', branch 'jLdaMYXXFcJx_wJe91G1n8ymK' of type 'text', mime 'text/html'
+20:33:07.662 Created new note 'xKz4TjGfRiti', branch 'wJe91G1n8ymK_xKz4TjGfRiti' of type 'text', mime 'text/html'
+20:33:07.663 Created new note 'TdAWe7KqiZd7', branch 'xKz4TjGfRiti_TdAWe7KqiZd7' of type 'text', mime 'text/html'
+20:33:07.664 Created new note 'ksr5ThwdtUXv', branch 'QHA3TFVexdSS_ksr5ThwdtUXv' of type 'text', mime 'text/html'
+20:33:07.666 Created new note 'fTevgJElxzOr', branch 'ksr5ThwdtUXv_fTevgJElxzOr' of type 'text', mime 'text/html'
+20:33:07.667 Created new note 'fua05g6vpb7s', branch 'ksr5ThwdtUXv_fua05g6vpb7s' of type 'text', mime 'text/html'
+20:33:07.668 Created new note 'cKevy0Ss9uUF', branch 'ksr5ThwdtUXv_cKevy0Ss9uUF' of type 'text', mime 'text/html'
+20:33:07.670 Created new note 'KKIYzes2OOBy', branch 'QHA3TFVexdSS_KKIYzes2OOBy' of type 'text', mime 'text/html'
+20:33:07.672 Created new note 'fzb0RwBn2A2y', branch 'QHA3TFVexdSS_fzb0RwBn2A2y' of type 'text', mime 'text/html'
+20:33:07.673 Created new note 'Ej4mE1MCHe5h', branch 'fzb0RwBn2A2y_Ej4mE1MCHe5h' of type 'code', mime 'application/javascript;env=backend'
+20:33:07.674 Created new note 'tepbCEPqP1LN', branch 'Ej4mE1MCHe5h_tepbCEPqP1LN' of type 'code', mime 'application/javascript;env=backend'
+20:33:07.682 Created new note '7DN1UmB8AZmx', branch 'fzb0RwBn2A2y_7DN1UmB8AZmx' of type 'code', mime 'text/css'
+20:33:07.685 Created new note 't41IFdgZFkTz', branch 'fzb0RwBn2A2y_t41IFdgZFkTz' of type 'text', mime 'text/html'
+20:33:07.686 Created new note 'MTH9jXnx8BxT', branch 'fzb0RwBn2A2y_MTH9jXnx8BxT' of type 'code', mime 'application/javascript;env=frontend'
+20:33:07.686 Created new note 'zrflymWKUJVM', branch 'QHA3TFVexdSS_zrflymWKUJVM' of type 'text', mime 'text/html'
+20:33:07.687 Created new note 'lO40SOpg8mQQ', branch 'zrflymWKUJVM_lO40SOpg8mQQ' of type 'text', mime 'text/html'
+20:33:07.688 Created new note 'g6hDwjO5T0JC', branch 'zrflymWKUJVM_g6hDwjO5T0JC' of type 'text', mime 'text/html'
+20:33:07.690 Created new note 'xx9H5BBK0DFe', branch 'zrflymWKUJVM_xx9H5BBK0DFe' of type 'text', mime 'text/html'
+20:33:07.691 Created new note 'MyyLMtVtXQWk', branch 'zrflymWKUJVM_MyyLMtVtXQWk' of type 'text', mime 'text/html'
+20:33:07.692 Created new note 'xUzztQtUsTCt', branch 'QHA3TFVexdSS_xUzztQtUsTCt' of type 'code', mime 'application/javascript;env=backend'
+20:33:07.751 [Script Ej4mE1MCHe5h] Schema and initial content generated.
+20:33:07.754 Becca (note cache) load took 2ms
+20:33:07.755 Created new note '_hidden', branch 'root__hidden' of type 'doc', mime ''
+20:33:07.756 Created new note '_search', branch '_hidden__search' of type 'doc', mime ''
+20:33:07.757 Created new note '_globalNoteMap', branch '_hidden__globalNoteMap' of type 'noteMap', mime ''
+20:33:07.758 Created new note '_sqlConsole', branch '_hidden__sqlConsole' of type 'doc', mime ''
+20:33:07.758 Created new note '_share', branch '_hidden__share' of type 'doc', mime ''
+20:33:07.759 Created new note '_bulkAction', branch '_hidden__bulkAction' of type 'doc', mime ''
+20:33:07.760 Created new note '_backendLog', branch '_hidden__backendLog' of type 'contentWidget', mime ''
+20:33:07.760 Created new note '_userHidden', branch '_hidden__userHidden' of type 'doc', mime ''
+20:33:07.761 Created new note '_lbTplRoot', branch '_hidden__lbTplRoot' of type 'doc', mime ''
+20:33:07.762 Created new note '_lbTplBase', branch '_lbTplRoot__lbTplBase' of type 'doc', mime ''
+20:33:07.762 Created new note '_lbTplCommandLauncher', branch '_lbTplRoot__lbTplCommandLauncher' of type 'doc', mime ''
+20:33:07.763 Created new note '_lbTplNoteLauncher', branch '_lbTplRoot__lbTplNoteLauncher' of type 'doc', mime ''
+20:33:07.764 Created new note '_lbTplScriptLauncher', branch '_lbTplRoot__lbTplScriptLauncher' of type 'doc', mime ''
+20:33:07.766 Created new note '_lbTplBuiltinWidget', branch '_lbTplRoot__lbTplBuiltinWidget' of type 'doc', mime ''
+20:33:07.768 Created new note '_lbTplSpacer', branch '_lbTplRoot__lbTplSpacer' of type 'doc', mime ''
+20:33:07.777 Created new note '_lbTplCustomWidget', branch '_lbTplRoot__lbTplCustomWidget' of type 'doc', mime ''
+20:33:07.778 Created new note '_lbRoot', branch '_hidden__lbRoot' of type 'doc', mime ''
+20:33:07.779 Created new note '_lbAvailableLaunchers', branch '_lbRoot__lbAvailableLaunchers' of type 'doc', mime ''
+20:33:07.780 Created new note '_lbBackInHistory', branch '_lbAvailableLaunchers__lbBackInHistory' of type 'launcher', mime ''
+20:33:07.781 Created new note '_lbForwardInHistory', branch '_lbAvailableLaunchers__lbForwardInHistory' of type 'launcher', mime ''
+20:33:07.782 Created new note '_lbBackendLog', branch '_lbAvailableLaunchers__lbBackendLog' of type 'launcher', mime ''
+20:33:07.784 Created new note '_lbVisibleLaunchers', branch '_lbRoot__lbVisibleLaunchers' of type 'doc', mime ''
+20:33:07.785 Created new note '_lbNewNote', branch '_lbVisibleLaunchers__lbNewNote' of type 'launcher', mime ''
+20:33:07.786 Created new note '_lbSearch', branch '_lbVisibleLaunchers__lbSearch' of type 'launcher', mime ''
+20:33:07.787 Created new note '_lbJumpTo', branch '_lbVisibleLaunchers__lbJumpTo' of type 'launcher', mime ''
+20:33:07.788 Created new note '_lbNoteMap', branch '_lbVisibleLaunchers__lbNoteMap' of type 'launcher', mime ''
+20:33:07.789 Created new note '_lbCalendar', branch '_lbVisibleLaunchers__lbCalendar' of type 'launcher', mime ''
+20:33:07.790 Created new note '_lbRecentChanges', branch '_lbVisibleLaunchers__lbRecentChanges' of type 'launcher', mime ''
+20:33:07.791 Created new note '_lbSpacer1', branch '_lbVisibleLaunchers__lbSpacer1' of type 'launcher', mime ''
+20:33:07.792 Created new note '_lbBookmarks', branch '_lbVisibleLaunchers__lbBookmarks' of type 'launcher', mime ''
+20:33:07.793 Created new note '_lbToday', branch '_lbVisibleLaunchers__lbToday' of type 'launcher', mime ''
+20:33:07.794 Created new note '_lbSpacer2', branch '_lbVisibleLaunchers__lbSpacer2' of type 'launcher', mime ''
+20:33:07.803 Created new note '_lbProtectedSession', branch '_lbVisibleLaunchers__lbProtectedSession' of type 'launcher', mime ''
+20:33:07.804 Created new note '_lbSyncStatus', branch '_lbVisibleLaunchers__lbSyncStatus' of type 'launcher', mime ''
+20:33:07.805 Created new note '_options', branch '_hidden__options' of type 'book', mime ''
+20:33:07.806 Created new note '_optionsAppearance', branch '_options__optionsAppearance' of type 'contentWidget', mime ''
+20:33:07.806 Created new note '_optionsShortcuts', branch '_options__optionsShortcuts' of type 'contentWidget', mime ''
+20:33:07.807 Created new note '_optionsTextNotes', branch '_options__optionsTextNotes' of type 'contentWidget', mime ''
+20:33:07.808 Created new note '_optionsCodeNotes', branch '_options__optionsCodeNotes' of type 'contentWidget', mime ''
+20:33:07.809 Created new note '_optionsImages', branch '_options__optionsImages' of type 'contentWidget', mime ''
+20:33:07.810 Created new note '_optionsSpellcheck', branch '_options__optionsSpellcheck' of type 'contentWidget', mime ''
+20:33:07.811 Created new note '_optionsPassword', branch '_options__optionsPassword' of type 'contentWidget', mime ''
+20:33:07.811 Created new note '_optionsEtapi', branch '_options__optionsEtapi' of type 'contentWidget', mime ''
+20:33:07.812 Created new note '_optionsBackup', branch '_options__optionsBackup' of type 'contentWidget', mime ''
+20:33:07.813 Created new note '_optionsSync', branch '_options__optionsSync' of type 'contentWidget', mime ''
+20:33:07.813 Created new note '_optionsOther', branch '_options__optionsOther' of type 'contentWidget', mime ''
+20:33:07.814 Created new note '_optionsAdvanced', branch '_options__optionsAdvanced' of type 'contentWidget', mime ''
+20:33:07.815 Registered global shortcut Ctrl+Alt+P for action createNoteIntoInbox
+20:33:07.816 Slow 204 POST /api/setup/new-document with 0 bytes took 463ms
+20:33:07.840 Generated CSRF token TwLgZz2U-KAk3MD5RIcbmx_dDwZQz9i7MVo0 with secret _csrf=JFBZY8ZPItJJ5HUTDbE_iQdE; Path=/
+20:33:08.045 200 GET /api/options with 6402 bytes took 0ms
+20:33:08.046 200 GET /api/tree with 13353 bytes took 1ms
+20:33:08.049 200 GET /api/keyboard-actions with 14263 bytes took 2ms
+20:33:08.050 200 GET /api/script/widgets with 2687 bytes took 1ms
+20:33:08.051 200 POST /api/tree/load with 4213 bytes took 0ms
+20:33:08.081 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 1ms
+20:33:08.089 200 POST /api/tree/load with 5506 bytes took 1ms
+20:33:08.089 200 POST /api/tree/load with 42 bytes took 0ms
+20:33:08.096 200 POST /api/tree/load with 18448 bytes took 1ms
+20:33:08.424 200 GET /api/notes/fQ2QCEn1yAyd/blob with 2482 bytes took 0ms
+20:33:08.426 200 GET /api/note-map/fQ2QCEn1yAyd/backlink-count with 11 bytes took 1ms
+20:33:10.082 200 GET /api/script/startup with 2 bytes took 1ms
+20:33:11.756 Table counts: notes: 207, revisions: 0, attachments: 16, branches: 221, attributes: 324, etapi_tokens: 0, blobs: 123
+20:33:11.762 All consistency checks passed with no errors detected (took 6ms)
+20:33:23.756 200 POST /api/tree/load with 4562 bytes took 0ms
+20:33:23.762 200 GET /api/options with 6402 bytes took 0ms
+20:33:23.773 200 GET /api/note-map/_optionsTextNotes/backlink-count with 11 bytes took 1ms
+20:33:23.775 200 GET /api/tree?subTreeNoteId=_hidden with 25650 bytes took 1ms
+20:33:23.776 204 PUT /api/options with 0 bytes took 1ms
+20:33:23.778 200 GET /api/options with 6771 bytes took 0ms
+20:33:23.783 200 GET /api/tree?subTreeNoteId=_options with 7687 bytes took 0ms
+20:33:23.784 200 GET /api/options with 6771 bytes took 0ms
+20:33:23.792 204 PUT /api/branches/root__hidden/expanded/1 with 0 bytes took 0ms
+20:33:23.793 200 GET /api/options with 6771 bytes took 0ms
+20:33:23.794 204 PUT /api/branches/_hidden__options/expanded/1 with 0 bytes took 0ms
+20:33:41.019 200 GET /api/note-map/_optionsAppearance/backlink-count with 11 bytes took 1ms
+20:33:41.019 200 GET /api/options with 6771 bytes took 0ms
+20:33:41.023 204 PUT /api/options with 0 bytes took 1ms
+20:33:41.024 200 GET /api/options/user-themes with 67 bytes took 1ms
+20:33:41.025 200 GET /api/options with 6772 bytes took 0ms
+20:33:41.027 200 GET /api/options with 6772 bytes took 1ms
+20:33:41.028 200 GET /api/options with 6772 bytes took 0ms
+20:33:41.029 200 GET /api/options with 6772 bytes took 0ms
+20:33:41.034 200 GET /api/options with 6772 bytes took 2ms
+20:33:43.232 Updating option 'theme' to 'dark'
+20:33:43.233 204 PUT /api/options/theme/dark with 0 bytes took 1ms
+20:33:43.240 200 GET /api/options with 6771 bytes took 0ms
+20:33:43.241 200 GET /api/options with 6771 bytes took 1ms
+20:33:43.241 200 GET /api/options with 6771 bytes took 0ms
+20:33:43.242 200 GET /api/options with 6771 bytes took 1ms
+20:33:43.242 200 GET /api/options with 6771 bytes took 0ms
+20:33:43.243 200 GET /api/options with 6771 bytes took 1ms
+20:33:43.243 JS Info: Frontend app reload: theme change
+20:33:43.246 200 GET /api/options/user-themes with 67 bytes took 1ms
+20:33:43.247 Generated CSRF token 7VDJhRCe-eDy17SdWpowAxBGoCoNWXTrELF4 with secret undefined
+20:33:43.328 200 GET /api/options with 6771 bytes took 0ms
+20:33:43.329 200 GET /api/tree with 40029 bytes took 1ms
+20:33:43.330 200 GET /api/keyboard-actions with 14263 bytes took 0ms
+20:33:43.330 200 GET /api/script/widgets with 2687 bytes took 0ms
+20:33:43.339 200 POST /api/tree/load with 4212 bytes took 1ms
+20:33:43.357 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+20:33:43.718 200 GET /api/note-map/_optionsAppearance/backlink-count with 11 bytes took 0ms
+20:33:43.719 200 GET /api/options with 6771 bytes took 1ms
+20:33:43.735 200 GET /api/options/user-themes with 67 bytes took 2ms
+20:33:43.736 200 GET /api/options with 6771 bytes took 1ms
+20:33:43.740 200 GET /api/options with 6771 bytes took 1ms
+20:33:43.744 200 GET /api/options with 6771 bytes took 1ms
+20:33:43.753 200 GET /api/options with 6771 bytes took 0ms
+20:33:43.756 200 GET /api/options with 6771 bytes took 0ms
+20:33:45.275 Updating option 'theme' to 'steel-blue'
+20:33:45.276 204 PUT /api/options/theme/steel-blue with 0 bytes took 1ms
+20:33:45.283 200 GET /api/options with 6777 bytes took 1ms
+20:33:45.284 200 GET /api/options with 6777 bytes took 0ms
+20:33:45.285 200 GET /api/options with 6777 bytes took 1ms
+20:33:45.285 200 GET /api/options with 6777 bytes took 0ms
+20:33:45.286 200 GET /api/options with 6777 bytes took 0ms
+20:33:45.286 200 GET /api/options with 6777 bytes took 0ms
+20:33:45.287 JS Info: Frontend app reload: theme change
+20:33:45.289 200 GET /api/options/user-themes with 67 bytes took 1ms
+20:33:45.290 Generated CSRF token G7wS35jN-NRvOLXrvR3IiAgzWdK0whsvLCJQ with secret undefined
+20:33:45.358 200 GET /api/options with 6777 bytes took 0ms
+20:33:45.359 200 GET /api/tree with 40029 bytes took 0ms
+20:33:45.360 200 GET /api/keyboard-actions with 14263 bytes took 0ms
+20:33:45.361 200 GET /api/script/widgets with 2687 bytes took 1ms
+20:33:45.362 200 POST /api/tree/load with 4212 bytes took 0ms
+20:33:45.379 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+20:33:45.648 200 GET /api/note-map/_optionsAppearance/backlink-count with 11 bytes took 0ms
+20:33:45.649 200 GET /api/options with 6777 bytes took 0ms
+20:33:45.671 200 GET /api/options/user-themes with 67 bytes took 0ms
+20:33:45.672 200 GET /api/options with 6777 bytes took 0ms
+20:33:45.677 200 GET /api/options with 6777 bytes took 1ms
+20:33:45.678 200 GET /api/options with 6777 bytes took 0ms
+20:33:45.679 200 GET /api/options with 6777 bytes took 0ms
+20:33:45.680 200 GET /api/options with 6777 bytes took 0ms
+20:33:47.381 200 GET /api/script/startup with 2 bytes took 1ms
+20:33:47.736 Updating option 'overrideThemeFonts' to 'true'
+20:33:47.737 204 PUT /api/options with 0 bytes took 1ms
+20:33:47.739 200 GET /api/options with 6776 bytes took 0ms
+20:33:47.740 200 GET /api/options with 6776 bytes took 1ms
+20:33:47.740 200 GET /api/options with 6776 bytes took 0ms
+20:33:47.741 200 GET /api/options with 6776 bytes took 1ms
+20:33:47.741 200 GET /api/options with 6776 bytes took 0ms
+20:33:47.742 200 GET /api/options with 6776 bytes took 1ms
+20:33:47.744 200 GET /api/options/user-themes with 67 bytes took 1ms
+20:33:49.351 Updating option 'overrideThemeFonts' to 'false'
+20:33:49.352 204 PUT /api/options with 0 bytes took 1ms
+20:33:49.354 200 GET /api/options with 6777 bytes took 0ms
+20:33:49.355 200 GET /api/options with 6777 bytes took 0ms
+20:33:49.355 200 GET /api/options with 6777 bytes took 0ms
+20:33:49.356 200 GET /api/options with 6777 bytes took 0ms
+20:33:49.356 200 GET /api/options with 6777 bytes took 0ms
+20:33:49.357 200 GET /api/options with 6777 bytes took 0ms
+20:33:49.358 200 GET /api/options/user-themes with 67 bytes took 1ms
+20:33:57.373 200 GET /api/note-map/_options/backlink-count with 11 bytes took 0ms
+20:33:57.377 204 PUT /api/options with 0 bytes took 1ms
+20:34:02.392 Created new note 'dYHukj5T72ZT', branch 'VvXAe3z3AGMK_dYHukj5T72ZT' of type 'text', mime 'text/html'
+20:34:02.393 Created new note 'uaASzJMwTbky', branch 'dYHukj5T72ZT_uaASzJMwTbky' of type 'text', mime 'text/html'
+20:34:02.395 Created new note 'wZwqNYvHUiaj', branch 'uaASzJMwTbky_wZwqNYvHUiaj' of type 'text', mime 'text/html'
+20:34:02.396 200 GET /api/special-notes/inbox/2026-08-12 with 333 bytes took 8ms
+20:34:02.397 200 POST /api/tree/load with 6498 bytes took 0ms
+20:34:02.399 200 POST /api/tree/load with 6067 bytes took 1ms
+20:34:02.401 Created new note 'h1AHstmxUlD0', branch 'wZwqNYvHUiaj_h1AHstmxUlD0' of type 'text', mime 'text/html'
+20:34:02.402 200 POST /api/notes/wZwqNYvHUiaj/children?target=into with 554 bytes took 3ms
+20:34:02.423 200 POST /api/tree/load with 6774 bytes took 0ms
+20:34:02.502 200 GET /api/notes/h1AHstmxUlD0/blob with 155 bytes took 1ms
+20:34:02.502 200 GET /api/note-map/h1AHstmxUlD0/backlink-count with 11 bytes took 0ms
+20:34:02.503 200 GET /api/tree?subTreeNoteId=VvXAe3z3AGMK with 15089 bytes took 0ms
+20:34:02.509 204 PUT /api/options with 0 bytes took 0ms
+20:34:02.633 200 GET /api/tree?subTreeNoteId=dYHukj5T72ZT with 5466 bytes took 0ms
+20:34:02.644 200 GET /api/tree?subTreeNoteId=uaASzJMwTbky with 6644 bytes took 1ms
+20:34:02.651 200 GET /api/tree?subTreeNoteId=wZwqNYvHUiaj with 6774 bytes took 0ms
+20:34:02.661 204 PUT /api/branches/fQ2QCEn1yAyd_VvXAe3z3AGMK/expanded/1 with 0 bytes took 1ms
+20:34:02.664 204 PUT /api/branches/VvXAe3z3AGMK_dYHukj5T72ZT/expanded/1 with 0 bytes took 0ms
+20:34:02.665 204 PUT /api/branches/dYHukj5T72ZT_uaASzJMwTbky/expanded/1 with 0 bytes took 0ms
+20:34:02.666 204 PUT /api/branches/uaASzJMwTbky_wZwqNYvHUiaj/expanded/1 with 0 bytes took 0ms
+20:34:05.212 200 GET /api/notes/VvXAe3z3AGMK/blob with 1176 bytes took 1ms
+20:34:05.212 200 GET /api/note-map/VvXAe3z3AGMK/backlink-count with 11 bytes took 0ms
+20:34:05.215 204 PUT /api/options with 0 bytes took 0ms
+20:34:05.239 200 GET /api/notes/njuDxBj3ak7u/blob with 155 bytes took 0ms
+20:34:05.249 200 GET /api/notes/dYHukj5T72ZT/blob with 155 bytes took 0ms
+20:34:05.251 200 GET /api/notes/1TQ7iwxzO64G/blob with 1415 bytes took 0ms
+20:34:05.694 200 GET /api/note-map/njuDxBj3ak7u/backlink-count with 11 bytes took 0ms
+20:34:05.812 200 GET /api/notes/PvBhfMH6UuCp/blob with 155 bytes took 0ms
+20:34:05.814 200 POST /api/tree/load with 7224 bytes took 0ms
+20:34:05.817 200 GET /api/notes/IBMV8ZUJhKm7/blob with 155 bytes took 0ms
+20:34:05.823 200 GET /api/notes/SdjWmYFci45W/blob with 1299 bytes took 0ms
+20:34:06.182 200 GET /api/note-map/PvBhfMH6UuCp/backlink-count with 11 bytes took 0ms
+20:34:06.219 204 PUT /api/options with 0 bytes took 0ms
+20:34:06.297 200 GET /api/notes/aLk37BRIp9JH/blob with 1415 bytes took 0ms
+20:34:07.806 200 GET /api/notes/4AwEL0fh9BsP/blob with 1415 bytes took 1ms
+20:34:07.806 200 GET /api/note-map/4AwEL0fh9BsP/backlink-count with 11 bytes took 0ms
+20:34:07.811 204 PUT /api/options with 0 bytes took 0ms
+20:34:08.531 200 GET /api/notes/GzW4cqBa5ZEk/blob with 1415 bytes took 0ms
+20:34:08.532 200 GET /api/note-map/GzW4cqBa5ZEk/backlink-count with 11 bytes took 1ms
+20:34:08.549 200 POST /api/tree/load with 8510 bytes took 0ms
+20:34:08.552 200 GET /api/notes/9xkrYX3di7Ez/blob with 981 bytes took 0ms
+20:34:08.553 200 GET /api/notes/XjToRyKJ5z4I/blob with 907 bytes took 0ms
+20:34:08.816 204 PUT /api/options with 0 bytes took 1ms
+20:34:09.694 200 GET /api/notes/fQ2QCEn1yAyd/blob with 2482 bytes took 1ms
+20:34:09.694 200 GET /api/note-map/fQ2QCEn1yAyd/backlink-count with 11 bytes took 0ms
+20:34:09.818 204 PUT /api/options with 0 bytes took 1ms
+20:34:09.834 200 GET /api/notes/rP0cgq56R0N0/blob with 1077 bytes took 1ms
+20:34:09.836 200 GET /api/notes/VvXAe3z3AGMK/blob with 1176 bytes took 0ms
+20:34:09.840 200 GET /api/notes/3EF9EfoUPsxP/blob with 1011 bytes took 0ms
+20:34:09.845 200 POST /api/tree/load with 5110 bytes took 1ms
+20:34:09.846 200 GET /api/notes/6mCVHSEIrwAE/blob with 155 bytes took 0ms
+20:34:09.863 200 POST /api/tree/load with 4458 bytes took 0ms
+20:34:09.866 200 GET /api/notes/gRvumdsQw48F/blob with 155 bytes took 0ms
+20:34:09.866 200 POST /api/tree/load with 3840 bytes took 0ms
+20:34:09.869 200 GET /api/notes/hyxDy6WEVp5y/blob with 3092 bytes took 1ms
+20:34:09.870 200 GET /api/notes/wNAo0NUodrnn/blob with 155 bytes took 1ms
+20:34:09.870 200 POST /api/tree/load with 7557 bytes took 0ms
+20:34:57.808 204 PUT /api/branches/root_fQ2QCEn1yAyd/expanded/0 with 0 bytes took 1ms
+20:35:02.778 200 GET /api/notes/fQ2QCEn1yAyd/blob with 2482 bytes took 0ms
+20:35:02.779 200 GET /api/note-map/fQ2QCEn1yAyd/backlink-count with 11 bytes took 1ms
+20:35:02.944 204 PUT /api/options with 0 bytes took 1ms
+20:35:03.030 200 GET /api/notes/rP0cgq56R0N0/blob with 1077 bytes took 1ms
+20:35:03.034 200 GET /api/notes/VvXAe3z3AGMK/blob with 1176 bytes took 1ms
+20:35:03.035 200 GET /api/notes/3EF9EfoUPsxP/blob with 1011 bytes took 0ms
+20:35:03.039 200 GET /api/notes/6mCVHSEIrwAE/blob with 155 bytes took 1ms
+20:35:03.044 200 GET /api/notes/gRvumdsQw48F/blob with 155 bytes took 1ms
+20:35:03.048 200 GET /api/notes/hyxDy6WEVp5y/blob with 3092 bytes took 0ms
+20:35:03.053 200 GET /api/notes/wNAo0NUodrnn/blob with 155 bytes took 1ms
+20:35:03.945 204 PUT /api/options with 0 bytes took 1ms
+20:35:05.154 200 GET /api/notes/fQ2QCEn1yAyd/blob with 2482 bytes took 0ms
+20:35:05.191 204 PUT /api/options with 0 bytes took 0ms
+20:35:13.014 200 GET /api/special-notes/inbox/2026-08-12 with 333 bytes took 1ms
+20:35:13.018 Created new note 'xc9jSxv7HsD9', branch 'wZwqNYvHUiaj_xc9jSxv7HsD9' of type 'text', mime 'text/html'
+20:35:13.018 200 POST /api/notes/wZwqNYvHUiaj/children?target=into with 554 bytes took 2ms
+20:35:13.021 200 POST /api/tree/load with 6917 bytes took 0ms
+20:35:13.100 200 GET /api/notes/xc9jSxv7HsD9/blob with 155 bytes took 1ms
+20:35:13.101 200 GET /api/note-map/xc9jSxv7HsD9/backlink-count with 11 bytes took 0ms
+20:35:13.103 204 PUT /api/branches/root_fQ2QCEn1yAyd/expanded/1 with 0 bytes took 1ms
+20:35:13.115 204 PUT /api/options with 0 bytes took 1ms
+20:35:19.425 204 PUT /api/branches/root_fQ2QCEn1yAyd/expanded/0 with 0 bytes took 1ms
+20:35:19.955 204 PUT /api/branches/root_fQ2QCEn1yAyd/expanded/1 with 0 bytes took 1ms
+20:35:21.105 204 PUT /api/branches/root_fQ2QCEn1yAyd/expanded/0 with 0 bytes took 0ms
+20:35:21.459 200 GET /api/search-templates with 16 bytes took 1ms
+20:35:23.206 204 PUT /api/branches/root_fQ2QCEn1yAyd/expanded/1 with 0 bytes took 1ms
+20:35:23.746 204 PUT /api/branches/root_fQ2QCEn1yAyd/expanded/0 with 0 bytes took 1ms
+20:35:24.316 200 GET /api/search-templates with 16 bytes took 1ms
+20:35:46.461 200 GET /api/search-templates with 16 bytes took 1ms
+20:35:55.501 200 GET /api/search-templates with 16 bytes took 1ms
+20:35:55.502 200 GET /api/search-templates with 16 bytes took 1ms
+20:36:15.292 200 GET /api/search-templates with 16 bytes took 1ms
+20:36:15.293 200 GET /api/search-templates with 16 bytes took 0ms
+20:36:17.021 Duplicating 'fQ2QCEn1yAyd' subtree into 'root'
+20:36:17.114 Slow 200 POST /api/notes/fQ2QCEn1yAyd/duplicate/root with 548 bytes took 94ms
+20:36:17.122 200 POST /api/tree/load with 52926 bytes took 1ms
+20:36:17.131 204 PUT /api/branches/root_fQ2QCEn1yAyd/expanded/1 with 0 bytes took 0ms
+20:36:17.158 200 GET /api/notes/IkJrVDzHhHFO/blob with 2482 bytes took 1ms
+20:36:17.158 200 GET /api/note-map/IkJrVDzHhHFO/backlink-count with 11 bytes took 0ms
+20:36:17.161 204 PUT /api/options with 0 bytes took 1ms
+20:36:17.218 200 POST /api/tree/load with 3171 bytes took 0ms
+20:36:17.231 200 GET /api/notes/eYvTGoYZZYGd/blob with 1077 bytes took 0ms
+20:36:17.239 200 GET /api/notes/gP8KmT0lATIw/blob with 1176 bytes took 0ms
+20:36:17.242 200 GET /api/notes/Edqbfw3vBffa/blob with 1011 bytes took 0ms
+20:36:17.246 200 GET /api/notes/WvGvrTN0m5Bu/blob with 155 bytes took 1ms
+20:36:17.250 200 POST /api/tree/load with 4164 bytes took 0ms
+20:36:17.253 200 GET /api/notes/h2z24YD7MK3G/blob with 155 bytes took 1ms
+20:36:17.253 200 POST /api/tree/load with 3977 bytes took 0ms
+20:36:17.255 200 GET /api/notes/xnxARzF2uMnk/blob with 3092 bytes took 0ms
+20:36:17.260 200 GET /api/notes/XGr5SGZaJ0Od/blob with 155 bytes took 1ms
+20:36:17.260 200 POST /api/tree/load with 4828 bytes took 0ms
+20:36:19.827 204 PUT /api/branches/root_fQ2QCEn1yAyd/expanded/0 with 0 bytes took 1ms
+20:36:22.400 200 GET /api/notes/fQ2QCEn1yAyd/blob with 2482 bytes took 0ms
+20:36:22.400 200 GET /api/note-map/fQ2QCEn1yAyd/backlink-count with 11 bytes took 0ms
+20:36:22.404 204 PUT /api/options with 0 bytes took 1ms
+20:36:22.543 200 GET /api/notes/rP0cgq56R0N0/blob with 1077 bytes took 1ms
+20:36:22.545 200 GET /api/notes/VvXAe3z3AGMK/blob with 1176 bytes took 0ms
+20:36:22.547 200 GET /api/notes/3EF9EfoUPsxP/blob with 1011 bytes took 1ms
+20:36:22.556 200 GET /api/notes/6mCVHSEIrwAE/blob with 155 bytes took 2ms
+20:36:22.561 200 GET /api/notes/gRvumdsQw48F/blob with 155 bytes took 1ms
+20:36:22.568 200 GET /api/notes/hyxDy6WEVp5y/blob with 3092 bytes took 0ms
+20:36:22.576 200 GET /api/notes/wNAo0NUodrnn/blob with 155 bytes took 0ms
+20:36:22.723 Created new note 'dVTUgcHzZYiq', branch 'fQ2QCEn1yAyd_dVTUgcHzZYiq' of type 'text', mime 'text/html'
+20:36:22.724 200 POST /api/notes/fQ2QCEn1yAyd/children?target=into&targetBranchId= with 555 bytes took 2ms
+20:36:22.725 200 POST /api/tree/load with 3300 bytes took 0ms
+20:36:22.738 200 GET /api/notes/dVTUgcHzZYiq/blob with 155 bytes took 0ms
+20:36:22.739 200 GET /api/note-map/dVTUgcHzZYiq/backlink-count with 11 bytes took 0ms
+20:36:22.740 204 PUT /api/branches/root_fQ2QCEn1yAyd/expanded/1 with 0 bytes took 0ms
+20:36:23.407 204 PUT /api/options with 0 bytes took 1ms
+20:36:25.128 204 PUT /api/branches/root_fQ2QCEn1yAyd/expanded/0 with 0 bytes took 0ms
+20:36:26.256 Created new note 'XWiojJtBlmel', branch 'root_XWiojJtBlmel' of type 'text', mime 'text/html'
+20:36:26.263 200 POST /api/notes/root/children?target=into&targetBranchId= with 538 bytes took 8ms
+20:36:26.266 200 POST /api/tree/load with 917 bytes took 0ms
+20:36:26.272 204 PUT /api/branches/root_fQ2QCEn1yAyd/expanded/1 with 0 bytes took 2ms
+20:36:26.286 200 GET /api/notes/XWiojJtBlmel/blob with 155 bytes took 0ms
+20:36:26.286 200 GET /api/note-map/XWiojJtBlmel/backlink-count with 11 bytes took 0ms
+20:36:26.289 204 PUT /api/options with 0 bytes took 0ms
+20:36:29.130 200 GET /api/other/icon-usage with 319 bytes took 1ms
+20:36:47.099 204 PUT /api/notes/XWiojJtBlmel/set-attribute with 0 bytes took 1ms
+20:36:51.273 200 GET /api/notes/fQ2QCEn1yAyd/blob with 2482 bytes took 1ms
+20:36:51.273 200 GET /api/note-map/fQ2QCEn1yAyd/backlink-count with 11 bytes took 0ms
+20:36:51.282 204 PUT /api/options with 0 bytes took 1ms
+20:36:51.321 200 GET /api/notes/rP0cgq56R0N0/blob with 1077 bytes took 0ms
+20:36:51.327 200 GET /api/notes/VvXAe3z3AGMK/blob with 1176 bytes took 1ms
+20:36:51.332 200 GET /api/notes/3EF9EfoUPsxP/blob with 1011 bytes took 0ms
+20:36:51.338 200 GET /api/notes/6mCVHSEIrwAE/blob with 155 bytes took 0ms
+20:36:51.339 200 GET /api/notes/gRvumdsQw48F/blob with 155 bytes took 0ms
+20:36:51.343 200 GET /api/notes/hyxDy6WEVp5y/blob with 3092 bytes took 0ms
+20:36:51.344 200 GET /api/notes/wNAo0NUodrnn/blob with 155 bytes took 0ms
+20:36:51.352 200 GET /api/notes/dVTUgcHzZYiq/blob with 155 bytes took 1ms
+20:36:58.711 204 PUT /api/branches/root_fQ2QCEn1yAyd/expanded/0 with 0 bytes took 1ms
+20:37:00.932 200 GET /api/notes/IkJrVDzHhHFO/blob with 2482 bytes took 1ms
+20:37:00.932 200 GET /api/note-map/IkJrVDzHhHFO/backlink-count with 11 bytes took 0ms
+20:37:00.935 204 PUT /api/options with 0 bytes took 1ms
+20:37:01.068 200 GET /api/notes/eYvTGoYZZYGd/blob with 1077 bytes took 1ms
+20:37:01.070 200 GET /api/notes/gP8KmT0lATIw/blob with 1176 bytes took 0ms
+20:37:01.074 200 GET /api/notes/Edqbfw3vBffa/blob with 1011 bytes took 0ms
+20:37:01.078 200 GET /api/notes/WvGvrTN0m5Bu/blob with 155 bytes took 0ms
+20:37:01.080 200 GET /api/notes/h2z24YD7MK3G/blob with 155 bytes took 0ms
+20:37:01.086 200 GET /api/notes/xnxARzF2uMnk/blob with 3092 bytes took 0ms
+20:37:01.088 200 GET /api/notes/XGr5SGZaJ0Od/blob with 155 bytes took 1ms
+20:37:02.563 200 GET /api/search-templates with 31 bytes took 1ms
+20:37:02.564 200 GET /api/search-templates with 31 bytes took 1ms
+20:37:05.451 200 POST /api/delete-notes-preview with 2562 bytes took 2ms
+20:37:05.453 200 POST /api/tree/load with 66392 bytes took 1ms
+20:37:05.476 200 POST /api/tree/load with 15062 bytes took 0ms
+20:37:09.968 Sending message to all clients: {"type":"taskProgressCount","taskId":"SWtu1rhasR","taskType":"deleteNotes","data":null,"progressCount":0}
+20:37:09.969 Marking branches root_IkJrVDzHhHFO as deleted
+20:37:09.969 Marking branches IkJrVDzHhHFO_eYvTGoYZZYGd as deleted
+20:37:09.969 Marking branches eYvTGoYZZYGd_FfSnFoXbyY18 as deleted
+20:37:09.969 Deleting note 'FfSnFoXbyY18'
+20:37:09.969 Marking notes FfSnFoXbyY18 as deleted
+20:37:09.970 Marking branches eYvTGoYZZYGd_5JRcyjAHxABd as deleted
+20:37:09.970 Deleting note '5JRcyjAHxABd'
+20:37:09.970 Marking notes 5JRcyjAHxABd as deleted
+20:37:09.970 Marking branches eYvTGoYZZYGd_LcEfixm6ydjc as deleted
+20:37:09.970 Marking branches LcEfixm6ydjc_RwJHUNfCn7Sx as deleted
+20:37:09.970 Deleting note 'RwJHUNfCn7Sx'
+20:37:09.970 Marking attributes v7iuOGO5cFPy as deleted
+20:37:09.970 Marking notes RwJHUNfCn7Sx as deleted
+20:37:09.970 Deleting note 'LcEfixm6ydjc'
+20:37:09.971 Marking notes LcEfixm6ydjc as deleted
+20:37:09.971 Deleting note 'eYvTGoYZZYGd'
+20:37:09.971 Marking attributes FOXdlcSHYceq as deleted
+20:37:09.971 Marking notes eYvTGoYZZYGd as deleted
+20:37:09.971 Marking branches IkJrVDzHhHFO_IaFmhkvUIprL as deleted
+20:37:09.971 Marking branches IaFmhkvUIprL_e8PSycFucOao as deleted
+20:37:09.971 Deleting note 'e8PSycFucOao'
+20:37:09.971 Marking attributes PQ4HXSLtJjRo as deleted
+20:37:09.971 Marking notes e8PSycFucOao as deleted
+20:37:09.972 Marking branches IaFmhkvUIprL_Kv5h7IhNzHDf as deleted
+20:37:09.972 Deleting note 'Kv5h7IhNzHDf'
+20:37:09.972 Marking attributes 0WuDzj8ZLQtu as deleted
+20:37:09.972 Marking notes Kv5h7IhNzHDf as deleted
+20:37:09.972 Marking branches IaFmhkvUIprL_BDNT7RRCz4eR as deleted
+20:37:09.972 Deleting note 'BDNT7RRCz4eR'
+20:37:09.972 Marking attributes vtNtJlPQX4jk as deleted
+20:37:09.972 Marking notes BDNT7RRCz4eR as deleted
+20:37:09.972 Marking branches IaFmhkvUIprL_JiTkhvjZB8p9 as deleted
+20:37:09.972 Deleting note 'JiTkhvjZB8p9'
+20:37:09.973 Marking attributes tEjey7O8ohbZ as deleted
+20:37:09.973 Marking attributes RGYimehC054g as deleted
+20:37:09.973 Marking notes JiTkhvjZB8p9 as deleted
+20:37:09.973 Marking branches IaFmhkvUIprL_hZtbwVgh32CJ as deleted
+20:37:09.973 Deleting note 'hZtbwVgh32CJ'
+20:37:09.973 Marking attributes TcKNTsl9BTfw as deleted
+20:37:09.973 Marking notes hZtbwVgh32CJ as deleted
+20:37:09.973 Deleting note 'IaFmhkvUIprL'
+20:37:09.973 Marking notes IaFmhkvUIprL as deleted
+20:37:09.973 Marking branches IkJrVDzHhHFO_gP8KmT0lATIw as deleted
+20:37:09.973 Marking branches gP8KmT0lATIw_H8zduNqFcRPZ as deleted
+20:37:09.974 Marking branches H8zduNqFcRPZ_tjNIxTv3ikLM as deleted
+20:37:09.974 Marking branches tjNIxTv3ikLM_UOo4Hn5pSg5b as deleted
+20:37:09.974 Marking branches UOo4Hn5pSg5b_m2SZEDVMnCVm as deleted
+20:37:09.974 Deleting note 'm2SZEDVMnCVm'
+20:37:09.974 Marking notes m2SZEDVMnCVm as deleted
+20:37:09.974 Marking branches UOo4Hn5pSg5b_5WaMQgEqOv2z as deleted
+20:37:09.974 Marking branches UOo4Hn5pSg5b_ITOp9SAm0fl9 as deleted
+20:37:09.974 Deleting note 'UOo4Hn5pSg5b'
+20:37:09.974 Marking attributes 79gmk8CtkP0F as deleted
+20:37:09.975 Marking attributes I9ZIQDWKzXR2 as deleted
+20:37:09.975 Marking notes UOo4Hn5pSg5b as deleted
+20:37:09.975 Deleting note 'tjNIxTv3ikLM'
+20:37:09.975 Marking attributes yyIpjzWe0Cci as deleted
+20:37:09.975 Marking attributes 1Z7iQ0XYiFyx as deleted
+20:37:09.975 Marking attributes sXeu4aisQz3a as deleted
+20:37:09.975 Marking notes tjNIxTv3ikLM as deleted
+20:37:09.975 Marking branches H8zduNqFcRPZ_5D6k65DlKnaE as deleted
+20:37:09.975 Marking branches 5D6k65DlKnaE_vkj27ROQ7Alt as deleted
+20:37:09.975 Marking branches vkj27ROQ7Alt_hNOn0J48ANW2 as deleted
+20:37:09.975 Deleting note 'hNOn0J48ANW2'
+20:37:09.976 Marking notes hNOn0J48ANW2 as deleted
+20:37:09.976 Marking branches vkj27ROQ7Alt_CZuapNpVDU30 as deleted
+20:37:09.976 Marking branches CZuapNpVDU30_fgrDYQWrmoZg as deleted
+20:37:09.976 Deleting note 'fgrDYQWrmoZg'
+20:37:09.976 Marking attributes kSdkSRFrLlr1 as deleted
+20:37:09.976 Marking attributes 0K8XjmowsZNU as deleted
+20:37:09.976 Marking notes fgrDYQWrmoZg as deleted
+20:37:09.976 Marking branches CZuapNpVDU30_urGUChzuuS64 as deleted
+20:37:09.976 Deleting note 'urGUChzuuS64'
+20:37:09.976 Marking attributes YjoTUY8QE7X9 as deleted
+20:37:09.976 Marking attributes dfaiZ6IuRLuG as deleted
+20:37:09.976 Marking notes urGUChzuuS64 as deleted
+20:37:09.977 Marking branches CZuapNpVDU30_IN6KYeLYEWKs as deleted
+20:37:09.977 Deleting note 'IN6KYeLYEWKs'
+20:37:09.977 Marking attributes 2KZW5qvg8l4C as deleted
+20:37:09.977 Marking attributes 9qRTd1MQDlh6 as deleted
+20:37:09.977 Marking notes IN6KYeLYEWKs as deleted
+20:37:09.977 Marking branches CZuapNpVDU30_vRRNNgT7049E as deleted
+20:37:09.977 Deleting note 'vRRNNgT7049E'
+20:37:09.977 Marking attributes tXjynB0DsAA0 as deleted
+20:37:09.977 Marking attributes o34SkkK0ULrV as deleted
+20:37:09.977 Marking notes vRRNNgT7049E as deleted
+20:37:09.977 Marking branches CZuapNpVDU30_0SxaXDRT92Sh as deleted
+20:37:09.977 Deleting note '0SxaXDRT92Sh'
+20:37:09.977 Marking attributes I1FjWSO4czvu as deleted
+20:37:09.977 Marking attributes BQfYv7pQOaRj as deleted
+20:37:09.978 Marking notes 0SxaXDRT92Sh as deleted
+20:37:09.978 Marking branches CZuapNpVDU30_HU6BSwoA2f1g as deleted
+20:37:09.978 Deleting note 'HU6BSwoA2f1g'
+20:37:09.978 Marking attributes ex32ve5ptOiD as deleted
+20:37:09.978 Marking attributes kFmbLKO5z0Qd as deleted
+20:37:09.978 Marking notes HU6BSwoA2f1g as deleted
+20:37:09.978 Marking branches CZuapNpVDU30_cbC2gfYlxhUk as deleted
+20:37:09.978 Deleting note 'cbC2gfYlxhUk'
+20:37:09.978 Marking attributes 89rNsF3llXcV as deleted
+20:37:09.978 Marking attributes IptLZV2VDwVb as deleted
+20:37:09.978 Marking notes cbC2gfYlxhUk as deleted
+20:37:09.978 Marking branches CZuapNpVDU30_REbRFJIMM15Y as deleted
+20:37:09.979 Deleting note 'REbRFJIMM15Y'
+20:37:09.979 Marking attributes SE7Wf6RHqaNA as deleted
+20:37:09.979 Marking attributes SkcmlLY4zw7A as deleted
+20:37:09.979 Marking notes REbRFJIMM15Y as deleted
+20:37:09.979 Marking branches CZuapNpVDU30_r5MKN29VAbNE as deleted
+20:37:09.980 Deleting note 'r5MKN29VAbNE'
+20:37:09.980 Marking attributes lbIkv9QlsKwd as deleted
+20:37:09.980 Marking attributes ybYrIXgYUFDN as deleted
+20:37:09.980 Marking notes r5MKN29VAbNE as deleted
+20:37:09.980 Marking branches CZuapNpVDU30_6tMpCGWfKhiB as deleted
+20:37:09.980 Deleting note '6tMpCGWfKhiB'
+20:37:09.980 Marking attributes 2lP2PbeY11Ul as deleted
+20:37:09.980 Marking attributes s7rjwtdhmbOH as deleted
+20:37:09.980 Marking notes 6tMpCGWfKhiB as deleted
+20:37:09.980 Marking branches CZuapNpVDU30_8oSbNft1okVi as deleted
+20:37:09.980 Deleting note '8oSbNft1okVi'
+20:37:09.980 Marking attributes U0nPxmB412zo as deleted
+20:37:09.981 Marking attributes ItTqqSdoiJ7q as deleted
+20:37:09.981 Marking notes 8oSbNft1okVi as deleted
+20:37:09.981 Marking branches CZuapNpVDU30_IwRiNEah1bFs as deleted
+20:37:09.981 Deleting note 'IwRiNEah1bFs'
+20:37:09.981 Marking attributes 9Q6oTtn4EUol as deleted
+20:37:09.981 Marking attributes 0uJLkNhqfkRM as deleted
+20:37:09.981 Marking notes IwRiNEah1bFs as deleted
+20:37:09.981 Deleting note 'CZuapNpVDU30'
+20:37:09.981 Marking attributes WTOSAsXj5tXk as deleted
+20:37:09.981 Marking notes CZuapNpVDU30 as deleted
+20:37:09.981 Marking branches vkj27ROQ7Alt_6sViNo66E4id as deleted
+20:37:09.981 Deleting note '6sViNo66E4id'
+20:37:09.982 Marking attributes Ccta7tNhTIC9 as deleted
+20:37:09.982 Marking attributes 6SYpLA4X53gg as deleted
+20:37:09.982 Marking attributes UjGzWg9H6B7J as deleted
+20:37:09.982 Marking attributes Vi0GijLJahMK as deleted
+20:37:09.982 Marking attributes 8UsIe5rcuwGF as deleted
+20:37:09.982 Marking notes 6sViNo66E4id as deleted
+20:37:09.982 Deleting note 'vkj27ROQ7Alt'
+20:37:09.982 Marking attributes q8xNdmI5ahUg as deleted
+20:37:09.982 Marking attributes GWfm8ZFan0SK as deleted
+20:37:09.982 Marking attributes TFkSV98B1XJ2 as deleted
+20:37:09.982 Marking notes vkj27ROQ7Alt as deleted
+20:37:09.982 Marking branches 5D6k65DlKnaE_qgoUm9jd2dTS as deleted
+20:37:09.983 Marking branches qgoUm9jd2dTS_Z2QnQR7qDwgI as deleted
+20:37:09.983 Deleting note 'Z2QnQR7qDwgI'
+20:37:09.983 Marking attributes Q6Cz3rhPALOt as deleted
+20:37:09.983 Marking attributes kFcCuJUghS5R as deleted
+20:37:09.983 Marking attributes xXHqzC2d6Oas as deleted
+20:37:09.983 Marking attributes zhUl2E6Ye96l as deleted
+20:37:09.983 Marking attributes uf8RrNV9ONe6 as deleted
+20:37:09.983 Marking notes Z2QnQR7qDwgI as deleted
+20:37:09.984 Deleting note 'qgoUm9jd2dTS'
+20:37:09.984 Marking attributes 4fUE7aJmDxf5 as deleted
+20:37:09.984 Marking attributes bxXXpxM5ioDP as deleted
+20:37:09.984 Marking attributes kFNWB8r8wDN8 as deleted
+20:37:09.984 Marking notes qgoUm9jd2dTS as deleted
+20:37:09.984 Marking branches 5D6k65DlKnaE_oj92RlRY7x2d as deleted
+20:37:09.984 Deleting note 'oj92RlRY7x2d'
+20:37:09.984 Marking attributes GdFA57i6Wz77 as deleted
+20:37:09.984 Marking attributes uygnxQslqCJ2 as deleted
+20:37:09.984 Marking attributes QwVQUJGiLw4b as deleted
+20:37:09.984 Marking notes oj92RlRY7x2d as deleted
+20:37:09.984 Marking branches 5D6k65DlKnaE_v955wVVZqB5y as deleted
+20:37:09.985 Marking branches v955wVVZqB5y_5StJ8tvHgkIQ as deleted
+20:37:09.985 Deleting note '5StJ8tvHgkIQ'
+20:37:09.985 Marking notes 5StJ8tvHgkIQ as deleted
+20:37:09.985 Marking branches v955wVVZqB5y_YK6xGKj0iCGi as deleted
+20:37:09.985 Deleting note 'YK6xGKj0iCGi'
+20:37:09.985 Marking notes YK6xGKj0iCGi as deleted
+20:37:09.985 Deleting note 'v955wVVZqB5y'
+20:37:09.985 Marking attributes OEIKn6v5hX7w as deleted
+20:37:09.985 Marking attributes IkYVQCCiQZ14 as deleted
+20:37:09.985 Marking attributes lAgCDkTyCuaH as deleted
+20:37:09.985 Marking notes v955wVVZqB5y as deleted
+20:37:09.986 Marking branches 5D6k65DlKnaE_2MveH4iWUPNP as deleted
+20:37:09.986 Marking branches 2MveH4iWUPNP_5qCua119yvWZ as deleted
+20:37:09.986 Deleting note '5qCua119yvWZ'
+20:37:09.986 Marking notes 5qCua119yvWZ as deleted
+20:37:09.986 Marking branches 2MveH4iWUPNP_t4Jvnq0oVepu as deleted
+20:37:09.986 Deleting note '2MveH4iWUPNP'
+20:37:09.986 Marking attributes t0xnwtJh76eA as deleted
+20:37:09.986 Marking attributes bW7lw2G6wHYP as deleted
+20:37:09.986 Marking attributes nMQzzeJY6FEW as deleted
+20:37:09.986 Marking notes 2MveH4iWUPNP as deleted
+20:37:09.986 Marking branches 5D6k65DlKnaE_mIVU6mfWxfyY as deleted
+20:37:09.987 Deleting note 'mIVU6mfWxfyY'
+20:37:09.987 Marking attributes nmu52wb7DSkA as deleted
+20:37:09.987 Marking attributes kgV0rs3jIU0v as deleted
+20:37:09.987 Marking attributes GTqov8y0sXt5 as deleted
+20:37:09.987 Marking notes mIVU6mfWxfyY as deleted
+20:37:09.987 Marking branches 5D6k65DlKnaE_LIvLvqZh3dXV as deleted
+20:37:09.987 Marking branches LIvLvqZh3dXV_dHqplbNkLimb as deleted
+20:37:09.987 Deleting note 'dHqplbNkLimb'
+20:37:09.987 Marking attributes VmSYEUhFe9oh as deleted
+20:37:09.987 Marking attributes 9AleY2BoEma9 as deleted
+20:37:09.987 Marking attributes r3Hdw2eGKus4 as deleted
+20:37:09.987 Marking attributes iHcFiUa6Hmxm as deleted
+20:37:09.988 Marking attributes dGCDXzIqjSbq as deleted
+20:37:09.988 Marking attributes gjeCvAEowdUo as deleted
+20:37:09.988 Marking attributes KlGLhzNqK6aj as deleted
+20:37:09.988 Marking notes dHqplbNkLimb as deleted
+20:37:09.988 Marking branches LIvLvqZh3dXV_5yzDhH2pszGS as deleted
+20:37:09.988 Deleting note '5yzDhH2pszGS'
+20:37:09.988 Marking attributes aaIdh2Fem1OM as deleted
+20:37:09.988 Marking attributes ebRy8pYbAhAf as deleted
+20:37:09.988 Marking attributes QQDTE1n6QvId as deleted
+20:37:09.988 Marking attributes qInDMGNg4MgP as deleted
+20:37:09.988 Marking attributes 97Kntjb58taZ as deleted
+20:37:09.989 Marking attributes weo4TPCVEY20 as deleted
+20:37:09.989 Marking attributes 9fkbvId9MXjD as deleted
+20:37:09.989 Marking notes 5yzDhH2pszGS as deleted
+20:37:09.989 Deleting note 'LIvLvqZh3dXV'
+20:37:09.989 Marking attributes P9RFi05uh4B4 as deleted
+20:37:09.989 Marking attributes UkAOavyx7TDu as deleted
+20:37:09.989 Marking attributes l5JuPKGKa5pJ as deleted
+20:37:09.989 Marking notes LIvLvqZh3dXV as deleted
+20:37:09.989 Marking branches 5D6k65DlKnaE_awpGAhuO32M9 as deleted
+20:37:09.989 Deleting note 'awpGAhuO32M9'
+20:37:09.989 Marking attributes GRBBWdcFIQDW as deleted
+20:37:09.989 Marking attributes X4PtXLkHQEfw as deleted
+20:37:09.990 Marking notes awpGAhuO32M9 as deleted
+20:37:09.990 Deleting note '5D6k65DlKnaE'
+20:37:09.990 Marking attributes CskEGFo9bHxu as deleted
+20:37:09.990 Marking attributes vifukbuoaoT3 as deleted
+20:37:09.990 Marking attributes 3omZZ4b8sNaN as deleted
+20:37:09.990 Marking notes 5D6k65DlKnaE as deleted
+20:37:09.990 Marking branches H8zduNqFcRPZ_zuXVCKDpYL5p as deleted
+20:37:09.990 Marking branches zuXVCKDpYL5p_pNoiAHTWerKZ as deleted
+20:37:09.990 Marking branches pNoiAHTWerKZ_lndi4oqGutPT as deleted
+20:37:09.990 Deleting note 'lndi4oqGutPT'
+20:37:09.990 Marking notes lndi4oqGutPT as deleted
+20:37:09.991 Marking branches pNoiAHTWerKZ_LvbMIl0MxTFy as deleted
+20:37:09.991 Deleting note 'LvbMIl0MxTFy'
+20:37:09.991 Marking notes LvbMIl0MxTFy as deleted
+20:37:09.991 Marking branches pNoiAHTWerKZ_kqO6gPfX2y9z as deleted
+20:37:09.991 Marking branches kqO6gPfX2y9z_5WaMQgEqOv2z as deleted
+20:37:09.991 Deleting note '5WaMQgEqOv2z'
+20:37:09.991 Marking notes 5WaMQgEqOv2z as deleted
+20:37:09.991 Deleting note 'kqO6gPfX2y9z'
+20:37:09.991 Marking notes kqO6gPfX2y9z as deleted
+20:37:09.991 Deleting note 'pNoiAHTWerKZ'
+20:37:09.991 Marking notes pNoiAHTWerKZ as deleted
+20:37:09.992 Marking branches zuXVCKDpYL5p_DxU9SUyOn7R7 as deleted
+20:37:09.992 Deleting note 'DxU9SUyOn7R7'
+20:37:09.992 Marking notes DxU9SUyOn7R7 as deleted
+20:37:09.992 Deleting note 'zuXVCKDpYL5p'
+20:37:09.992 Marking notes zuXVCKDpYL5p as deleted
+20:37:09.992 Deleting note 'H8zduNqFcRPZ'
+20:37:09.992 Marking attributes vNnANMAEfzmk as deleted
+20:37:09.992 Marking attributes srDdBg0dnXXX as deleted
+20:37:09.992 Marking attributes oYWtaHgWIVA0 as deleted
+20:37:09.992 Marking notes H8zduNqFcRPZ as deleted
+20:37:09.992 Marking branches gP8KmT0lATIw_PHCVOmDWiNYv as deleted
+20:37:09.992 Marking branches PHCVOmDWiNYv_9csckAL5G1f3 as deleted
+20:37:09.993 Marking branches 9csckAL5G1f3_sPs0k4AL1Kd2 as deleted
+20:37:09.993 Marking branches sPs0k4AL1Kd2_KSRfH3T9er8a as deleted
+20:37:09.993 Deleting note 'KSRfH3T9er8a'
+20:37:09.994 Marking notes KSRfH3T9er8a as deleted
+20:37:09.994 Marking branches sPs0k4AL1Kd2_kgbfmHa9uvaj as deleted
+20:37:09.994 Deleting note 'kgbfmHa9uvaj'
+20:37:09.994 Marking notes kgbfmHa9uvaj as deleted
+20:37:09.994 Deleting note 'sPs0k4AL1Kd2'
+20:37:09.994 Marking attributes rlbQYfyFbZBv as deleted
+20:37:09.994 Marking attributes PjRAmXnupHIP as deleted
+20:37:09.994 Marking notes sPs0k4AL1Kd2 as deleted
+20:37:09.995 Deleting note '9csckAL5G1f3'
+20:37:09.995 Marking attributes 1lBsZczptmzZ as deleted
+20:37:09.995 Marking attributes TLeSGfcR8pEd as deleted
+20:37:09.995 Marking attributes 7oGpBRr8jt4Z as deleted
+20:37:09.995 Marking notes 9csckAL5G1f3 as deleted
+20:37:09.995 Deleting note 'PHCVOmDWiNYv'
+20:37:09.995 Marking attributes iPNJ1rWR73k4 as deleted
+20:37:09.995 Marking attributes FQlIQ3HV2qGS as deleted
+20:37:09.995 Marking attributes xUA2FTDcvntT as deleted
+20:37:09.995 Marking notes PHCVOmDWiNYv as deleted
+20:37:09.995 Marking branches gP8KmT0lATIw_o8rZz8g7BCxD as deleted
+20:37:09.996 Deleting note 'o8rZz8g7BCxD'
+20:37:09.996 Marking attributes vuBb3wgbVLj4 as deleted
+20:37:09.996 Marking attributes voxdaq7sH5gN as deleted
+20:37:09.996 Marking attributes eM9Wmnw2rJsM as deleted
+20:37:09.996 Marking notes o8rZz8g7BCxD as deleted
+20:37:09.996 Deleting note 'gP8KmT0lATIw'
+20:37:09.996 Marking attributes LH5i2NxKXIbz as deleted
+20:37:09.996 Marking attributes sBsXkzYDb7hS as deleted
+20:37:09.996 Marking attributes dUtI44TNV4KE as deleted
+20:37:09.996 Marking attributes O5Qu9oVskFt0 as deleted
+20:37:09.996 Marking notes gP8KmT0lATIw as deleted
+20:37:09.996 Marking branches IkJrVDzHhHFO_Edqbfw3vBffa as deleted
+20:37:09.997 Marking branches Edqbfw3vBffa_9hoJdmev1g7S as deleted
+20:37:09.997 Marking branches 9hoJdmev1g7S_ITOp9SAm0fl9 as deleted
+20:37:09.997 Deleting note 'ITOp9SAm0fl9'
+20:37:09.997 Marking notes ITOp9SAm0fl9 as deleted
+20:37:09.997 Deleting note '9hoJdmev1g7S'
+20:37:09.997 Marking notes 9hoJdmev1g7S as deleted
+20:37:09.997 Marking branches Edqbfw3vBffa_zw7aNyTbCZWR as deleted
+20:37:09.997 Marking branches zw7aNyTbCZWR_A0YNbXgMMwF2 as deleted
+20:37:09.997 Deleting note 'A0YNbXgMMwF2'
+20:37:09.997 Marking notes A0YNbXgMMwF2 as deleted
+20:37:09.997 Marking branches zw7aNyTbCZWR_WvjtnW5Ta6cr as deleted
+20:37:09.997 Marking branches zw7aNyTbCZWR_FJesg5T2Xs91 as deleted
+20:37:09.998 Marking branches FJesg5T2Xs91_ekF6Uei9mRwN as deleted
+20:37:09.998 Deleting note 'ekF6Uei9mRwN'
+20:37:09.998 Marking notes ekF6Uei9mRwN as deleted
+20:37:09.998 Deleting note 'FJesg5T2Xs91'
+20:37:09.998 Marking notes FJesg5T2Xs91 as deleted
+20:37:09.998 Deleting note 'zw7aNyTbCZWR'
+20:37:09.998 Marking notes zw7aNyTbCZWR as deleted
+20:37:09.998 Marking branches Edqbfw3vBffa_wHS0G5XR0Dve as deleted
+20:37:09.998 Marking branches wHS0G5XR0Dve_bFFjQK3Br4Ds as deleted
+20:37:09.998 Deleting note 'bFFjQK3Br4Ds'
+20:37:09.998 Marking notes bFFjQK3Br4Ds as deleted
+20:37:09.998 Marking branches wHS0G5XR0Dve_WvjtnW5Ta6cr as deleted
+20:37:09.998 Marking branches WvjtnW5Ta6cr_zlu1QmGWbJFD as deleted
+20:37:09.998 Deleting note 'zlu1QmGWbJFD'
+20:37:09.998 Marking notes zlu1QmGWbJFD as deleted
+20:37:09.999 Marking branches WvjtnW5Ta6cr_0GamqDOLIC0G as deleted
+20:37:09.999 Deleting note '0GamqDOLIC0G'
+20:37:09.999 Marking notes 0GamqDOLIC0G as deleted
+20:37:09.999 Deleting note 'WvjtnW5Ta6cr'
+20:37:09.999 Marking notes WvjtnW5Ta6cr as deleted
+20:37:09.999 Deleting note 'wHS0G5XR0Dve'
+20:37:09.999 Marking notes wHS0G5XR0Dve as deleted
+20:37:09.999 Marking branches Edqbfw3vBffa_tH12NC2ytp9S as deleted
+20:37:09.999 Marking branches tH12NC2ytp9S_olOzXV5bqzZd as deleted
+20:37:09.999 Deleting note 'olOzXV5bqzZd'
+20:37:09.999 Marking notes olOzXV5bqzZd as deleted
+20:37:09.999 Marking branches tH12NC2ytp9S_rdzwPsDk1FgZ as deleted
+20:37:09.999 Marking branches rdzwPsDk1FgZ_mOnaYOROYU8l as deleted
+20:37:09.999 Deleting note 'mOnaYOROYU8l'
+20:37:10.000 Marking notes mOnaYOROYU8l as deleted
+20:37:10.000 Marking branches rdzwPsDk1FgZ_td8AqEZ80z6x as deleted
+20:37:10.000 Deleting note 'td8AqEZ80z6x'
+20:37:10.000 Marking notes td8AqEZ80z6x as deleted
+20:37:10.000 Marking branches rdzwPsDk1FgZ_vLPWiWK0gUH0 as deleted
+20:37:10.000 Deleting note 'vLPWiWK0gUH0'
+20:37:10.000 Marking notes vLPWiWK0gUH0 as deleted
+20:37:10.000 Deleting note 'rdzwPsDk1FgZ'
+20:37:10.000 Marking notes rdzwPsDk1FgZ as deleted
+20:37:10.000 Marking branches tH12NC2ytp9S_mPh6HO9dkqDE as deleted
+20:37:10.000 Deleting note 'mPh6HO9dkqDE'
+20:37:10.000 Marking notes mPh6HO9dkqDE as deleted
+20:37:10.000 Deleting note 'tH12NC2ytp9S'
+20:37:10.000 Marking notes tH12NC2ytp9S as deleted
+20:37:10.000 Deleting note 'Edqbfw3vBffa'
+20:37:10.000 Marking notes Edqbfw3vBffa as deleted
+20:37:10.001 Marking branches IkJrVDzHhHFO_z6rS2suY5paH as deleted
+20:37:10.001 Deleting note 'z6rS2suY5paH'
+20:37:10.001 Marking notes z6rS2suY5paH as deleted
+20:37:10.001 Marking branches IkJrVDzHhHFO_NGEJA76p7bbw as deleted
+20:37:10.001 Marking branches NGEJA76p7bbw_5P1CUN01YxuV as deleted
+20:37:10.001 Deleting note '5P1CUN01YxuV'
+20:37:10.001 Marking notes 5P1CUN01YxuV as deleted
+20:37:10.001 Marking branches NGEJA76p7bbw_khks8jTQRWtC as deleted
+20:37:10.001 Deleting note 'khks8jTQRWtC'
+20:37:10.001 Marking notes khks8jTQRWtC as deleted
+20:37:10.001 Marking branches NGEJA76p7bbw_XJxwawKle353 as deleted
+20:37:10.001 Deleting note 'XJxwawKle353'
+20:37:10.001 Marking notes XJxwawKle353 as deleted
+20:37:10.002 Marking branches NGEJA76p7bbw_TszIScqaRErO as deleted
+20:37:10.002 Deleting note 'TszIScqaRErO'
+20:37:10.002 Marking notes TszIScqaRErO as deleted
+20:37:10.002 Marking branches NGEJA76p7bbw_lfXiEdJFKhzJ as deleted
+20:37:10.002 Deleting note 'lfXiEdJFKhzJ'
+20:37:10.002 Marking notes lfXiEdJFKhzJ as deleted
+20:37:10.002 Marking branches NGEJA76p7bbw_xShsHqqP0L5B as deleted
+20:37:10.002 Deleting note 'xShsHqqP0L5B'
+20:37:10.002 Marking notes xShsHqqP0L5B as deleted
+20:37:10.002 Marking branches NGEJA76p7bbw_B2XWSwbKe15g as deleted
+20:37:10.002 Deleting note 'B2XWSwbKe15g'
+20:37:10.002 Marking notes B2XWSwbKe15g as deleted
+20:37:10.002 Marking branches NGEJA76p7bbw_whKJmOlAt0J2 as deleted
+20:37:10.002 Deleting note 'whKJmOlAt0J2'
+20:37:10.002 Marking notes whKJmOlAt0J2 as deleted
+20:37:10.003 Marking branches NGEJA76p7bbw_uglEUAjqt2Uy as deleted
+20:37:10.003 Deleting note 'uglEUAjqt2Uy'
+20:37:10.003 Marking notes uglEUAjqt2Uy as deleted
+20:37:10.003 Marking branches NGEJA76p7bbw_Sds1qNKAAEU8 as deleted
+20:37:10.003 Deleting note 'Sds1qNKAAEU8'
+20:37:10.003 Marking notes Sds1qNKAAEU8 as deleted
+20:37:10.003 Marking branches NGEJA76p7bbw_rFb9n1F3p1Xq as deleted
+20:37:10.003 Deleting note 'rFb9n1F3p1Xq'
+20:37:10.003 Marking notes rFb9n1F3p1Xq as deleted
+20:37:10.003 Marking branches NGEJA76p7bbw_5jgePNaECnqB as deleted
+20:37:10.003 Deleting note '5jgePNaECnqB'
+20:37:10.003 Marking notes 5jgePNaECnqB as deleted
+20:37:10.003 Deleting note 'NGEJA76p7bbw'
+20:37:10.003 Marking notes NGEJA76p7bbw as deleted
+20:37:10.004 Marking branches IkJrVDzHhHFO_WvGvrTN0m5Bu as deleted
+20:37:10.004 Marking branches WvGvrTN0m5Bu_h0DOm953NrOe as deleted
+20:37:10.004 Deleting note 'h0DOm953NrOe'
+20:37:10.004 Marking notes h0DOm953NrOe as deleted
+20:37:10.004 Marking branches WvGvrTN0m5Bu_c0vC98HAUrZz as deleted
+20:37:10.004 Marking branches c0vC98HAUrZz_8TeQ246TSCse as deleted
+20:37:10.004 Deleting note '8TeQ246TSCse'
+20:37:10.004 Marking notes 8TeQ246TSCse as deleted
+20:37:10.004 Deleting note 'c0vC98HAUrZz'
+20:37:10.004 Marking attributes irjgn0a8DSkf as deleted
+20:37:10.004 Marking attributes g9Im5wdBA7zh as deleted
+20:37:10.004 Marking attributes xdrhW7RASeIX as deleted
+20:37:10.004 Marking attributes gtdUx5oCqDK0 as deleted
+20:37:10.005 Marking attributes MJ3kLX886RC1 as deleted
+20:37:10.005 Marking attributes 4XGaO0hCTGP5 as deleted
+20:37:10.005 Marking notes c0vC98HAUrZz as deleted
+20:37:10.005 Marking branches WvGvrTN0m5Bu_XopbwMGeCbba as deleted
+20:37:10.005 Marking branches XopbwMGeCbba_t4Jvnq0oVepu as deleted
+20:37:10.005 Marking branches t4Jvnq0oVepu_J7Jb3IqsxkZn as deleted
+20:37:10.005 Deleting note 'J7Jb3IqsxkZn'
+20:37:10.005 Marking notes J7Jb3IqsxkZn as deleted
+20:37:10.005 Deleting note 't4Jvnq0oVepu'
+20:37:10.005 Marking attributes yroUGf6po7qI as deleted
+20:37:10.005 Marking attributes 1OOuk3tPeIDP as deleted
+20:37:10.006 Marking attributes uJXg8xINrvqV as deleted
+20:37:10.006 Marking attributes uiZB5oEBZ1ZN as deleted
+20:37:10.006 Marking attributes YczI7uBlCH0Z as deleted
+20:37:10.006 Marking notes t4Jvnq0oVepu as deleted
+20:37:10.006 Deleting note 'XopbwMGeCbba'
+20:37:10.006 Marking attributes KlpcCkFvdSow as deleted
+20:37:10.006 Marking notes XopbwMGeCbba as deleted
+20:37:10.006 Deleting note 'WvGvrTN0m5Bu'
+20:37:10.006 Marking attributes PlzY9sBckc34 as deleted
+20:37:10.006 Marking attributes reiORbMfQrG7 as deleted
+20:37:10.007 Marking attributes 2pdiNccIIf3d as deleted
+20:37:10.007 Marking notes WvGvrTN0m5Bu as deleted
+20:37:10.007 Marking branches IkJrVDzHhHFO_h2z24YD7MK3G as deleted
+20:37:10.007 Marking branches h2z24YD7MK3G_hENKcFGOln79 as deleted
+20:37:10.008 Deleting note 'hENKcFGOln79'
+20:37:10.008 Marking notes hENKcFGOln79 as deleted
+20:37:10.008 Marking branches h2z24YD7MK3G_HJ9vwe62EZKK as deleted
+20:37:10.008 Deleting note 'HJ9vwe62EZKK'
+20:37:10.008 Marking notes HJ9vwe62EZKK as deleted
+20:37:10.008 Marking branches h2z24YD7MK3G_ZinCESfJB6Q6 as deleted
+20:37:10.008 Deleting note 'ZinCESfJB6Q6'
+20:37:10.008 Marking notes ZinCESfJB6Q6 as deleted
+20:37:10.008 Deleting note 'h2z24YD7MK3G'
+20:37:10.008 Marking notes h2z24YD7MK3G as deleted
+20:37:10.008 Marking branches IkJrVDzHhHFO_xnxARzF2uMnk as deleted
+20:37:10.009 Marking branches xnxARzF2uMnk_N5Go4nGCPj4X as deleted
+20:37:10.009 Deleting note 'N5Go4nGCPj4X'
+20:37:10.009 Marking attributes mJ4ExNz5R4JE as deleted
+20:37:10.009 Marking attributes Zo7xb3bYA8tC as deleted
+20:37:10.009 Marking attributes 14uXWlmHNfVW as deleted
+20:37:10.009 Marking notes N5Go4nGCPj4X as deleted
+20:37:10.009 Marking branches xnxARzF2uMnk_7LIP1fEFjvoJ as deleted
+20:37:10.009 Deleting note '7LIP1fEFjvoJ'
+20:37:10.009 Marking attributes 85LsXIHdqAuS as deleted
+20:37:10.010 Marking attributes nREc9Wgl5Lso as deleted
+20:37:10.010 Marking attributes jai5CsMLUaxZ as deleted
+20:37:10.010 Marking notes 7LIP1fEFjvoJ as deleted
+20:37:10.010 Deleting note 'xnxARzF2uMnk'
+20:37:10.010 Marking attributes 1K4S7b5YSpQI as deleted
+20:37:10.010 Marking notes xnxARzF2uMnk as deleted
+20:37:10.010 Marking branches IkJrVDzHhHFO_XGr5SGZaJ0Od as deleted
+20:37:10.010 Marking branches XGr5SGZaJ0Od_rXcZOPG0W20I as deleted
+20:37:10.010 Marking branches rXcZOPG0W20I_edsupDIZ9Ehj as deleted
+20:37:10.011 Marking branches edsupDIZ9Ehj_OhvncmBWI5J9 as deleted
+20:37:10.011 Deleting note 'OhvncmBWI5J9'
+20:37:10.011 Marking attributes 77HwYw7FoMwa as deleted
+20:37:10.011 Marking notes OhvncmBWI5J9 as deleted
+20:37:10.011 Marking branches edsupDIZ9Ehj_cQdY9GDPm1S3 as deleted
+20:37:10.011 Marking branches cQdY9GDPm1S3_QYJELoN76MI5 as deleted
+20:37:10.011 Deleting note 'cQdY9GDPm1S3'
+20:37:10.011 Marking attributes OjMNcd1qJYaj as deleted
+20:37:10.011 Marking notes cQdY9GDPm1S3 as deleted
+20:37:10.012 Marking branches edsupDIZ9Ehj_ZuVTElvSBaZB as deleted
+20:37:10.012 Marking branches ZuVTElvSBaZB_WNAuuvkW5T2J as deleted
+20:37:10.012 Deleting note 'ZuVTElvSBaZB'
+20:37:10.012 Marking attributes 9OJyMdSGSXII as deleted
+20:37:10.012 Marking notes ZuVTElvSBaZB as deleted
+20:37:10.012 Marking branches edsupDIZ9Ehj_XjdTINNIY8Em as deleted
+20:37:10.012 Marking branches XjdTINNIY8Em_0ChfEBJM667E as deleted
+20:37:10.012 Deleting note 'XjdTINNIY8Em'
+20:37:10.012 Marking attributes pF2OGn49iJba as deleted
+20:37:10.012 Marking notes XjdTINNIY8Em as deleted
+20:37:10.013 Deleting note 'edsupDIZ9Ehj'
+20:37:10.013 Marking attributes ijdnCgO8RhVX as deleted
+20:37:10.013 Marking attributes v3dewxgAyTus as deleted
+20:37:10.013 Marking notes edsupDIZ9Ehj as deleted
+20:37:10.013 Marking branches rXcZOPG0W20I_2fTY2SOgiJh4 as deleted
+20:37:10.013 Marking branches 2fTY2SOgiJh4_Eh8qvMS1qjZ7 as deleted
+20:37:10.013 Deleting note 'Eh8qvMS1qjZ7'
+20:37:10.013 Marking attributes ePhNHQpNWW1a as deleted
+20:37:10.014 [Script AilKN6YKQA8C] Marking attributes z9geYW1NWVXS as deleted
+20:37:10.014 [Script AilKN6YKQA8C] Marking attributes ACBcN4AtggBE as deleted
+20:37:10.014 [Script AilKN6YKQA8C] Marking attributes VqPbiF87WPkd as deleted
+20:37:10.014 [Script AilKN6YKQA8C] Marking attributes N94dsJcjtL1b as deleted
+20:37:10.014 [Script AilKN6YKQA8C] Marking attributes ZgjYFTN9B0Fb as deleted
+20:37:10.014 [Script AilKN6YKQA8C] Marking attributes EfXiGdH6hqva as deleted
+20:37:10.014 [Script AilKN6YKQA8C] Marking attributes v4km6GlrmJs8 as deleted
+20:37:10.014 [Script AilKN6YKQA8C] Marking notes Eh8qvMS1qjZ7 as deleted
+20:37:10.014 [Script AilKN6YKQA8C] Marking branches 2fTY2SOgiJh4_iUdQ7dUZ1cce as deleted
+20:37:10.015 [Script AilKN6YKQA8C] Deleting note 'iUdQ7dUZ1cce'
+20:37:10.015 [Script AilKN6YKQA8C] Marking attributes hKq8KMSKniry as deleted
+20:37:10.015 [Script AilKN6YKQA8C] Marking attributes cxAZU7EU0a9O as deleted
+20:37:10.015 [Script AilKN6YKQA8C] Marking attributes dKG5SETqtDgp as deleted
+20:37:10.015 [Script AilKN6YKQA8C] Marking attributes RU4YvP5kMNwT as deleted
+20:37:10.015 [Script AilKN6YKQA8C] Marking attributes 8870W5istOFE as deleted
+20:37:10.015 [Script AilKN6YKQA8C] Marking attributes JeZk15wJc2uu as deleted
+20:37:10.016 [Script AilKN6YKQA8C] Marking notes iUdQ7dUZ1cce as deleted
+20:37:10.016 [Script AilKN6YKQA8C] Marking branches 2fTY2SOgiJh4_ljNAp9HtOCY0 as deleted
+20:37:10.016 [Script AilKN6YKQA8C] Deleting note 'ljNAp9HtOCY0'
+20:37:10.016 [Script AilKN6YKQA8C] Marking attributes xyayDPbNvd3r as deleted
+20:37:10.016 [Script AilKN6YKQA8C] Marking attributes PkAFwTO947BM as deleted
+20:37:10.016 [Script AilKN6YKQA8C] Marking attributes IRLoRgPbLVej as deleted
+20:37:10.016 [Script AilKN6YKQA8C] Marking attributes n99vpeBfLrsp as deleted
+20:37:10.016 [Script AilKN6YKQA8C] Marking attributes KkovxEV2KrIc as deleted
+20:37:10.017 [Script AilKN6YKQA8C] Marking attributes 80JyGx7WN80I as deleted
+20:37:10.017 [Script AilKN6YKQA8C] Marking notes ljNAp9HtOCY0 as deleted
+20:37:10.017 [Script AilKN6YKQA8C] Deleting note '2fTY2SOgiJh4'
+20:37:10.017 [Script AilKN6YKQA8C] Marking attributes YjiYBPMWvORm as deleted
+20:37:10.017 [Script AilKN6YKQA8C] Marking attributes qU0C1fvyWb2W as deleted
+20:37:10.017 [Script AilKN6YKQA8C] Marking notes 2fTY2SOgiJh4 as deleted
+20:37:10.017 [Script AilKN6YKQA8C] Marking branches rXcZOPG0W20I_ayEyArJIJxS4 as deleted
+20:37:10.017 [Script AilKN6YKQA8C] Marking branches ayEyArJIJxS4_QYJELoN76MI5 as deleted
+20:37:10.017 [Script AilKN6YKQA8C] Deleting note 'QYJELoN76MI5'
+20:37:10.017 [Script AilKN6YKQA8C] Marking attributes A9vVgv8b4Smh as deleted
+20:37:10.017 [Script AilKN6YKQA8C] Marking attributes bcqojjEKcwTc as deleted
+20:37:10.018 [Script AilKN6YKQA8C] Marking attributes yhp1CoOQq7Ac as deleted
+20:37:10.018 [Script AilKN6YKQA8C] Marking attributes EKoR9rGLWqSi as deleted
+20:37:10.018 [Script AilKN6YKQA8C] Marking attributes hXQWC7fo62e1 as deleted
+20:37:10.018 [Script AilKN6YKQA8C] Marking attributes 5mj6iinDyKS0 as deleted
+20:37:10.018 [Script AilKN6YKQA8C] Marking notes QYJELoN76MI5 as deleted
+20:37:10.018 [Script AilKN6YKQA8C] Marking branches ayEyArJIJxS4_WNAuuvkW5T2J as deleted
+20:37:10.018 [Script AilKN6YKQA8C] Marking branches ayEyArJIJxS4_0ChfEBJM667E as deleted
+20:37:10.018 [Script AilKN6YKQA8C] Deleting note 'ayEyArJIJxS4'
+20:37:10.018 [Script AilKN6YKQA8C] Marking attributes VHzhOWsDrdI6 as deleted
+20:37:10.018 [Script AilKN6YKQA8C] Marking attributes gTmvyXWZXKsy as deleted
+20:37:10.018 [Script AilKN6YKQA8C] Marking attributes BAXIaIripkqx as deleted
+20:37:10.018 [Script AilKN6YKQA8C] Marking attributes zLBmR9nFoQAI as deleted
+20:37:10.019 [Script AilKN6YKQA8C] Marking attributes eXgb83LsQj5P as deleted
+20:37:10.019 [Script AilKN6YKQA8C] Marking attributes nKqdVRQt7ij7 as deleted
+20:37:10.019 [Script AilKN6YKQA8C] Marking notes ayEyArJIJxS4 as deleted
+20:37:10.019 [Script AilKN6YKQA8C] Marking branches rXcZOPG0W20I_0xoqRoiVQIMT as deleted
+20:37:10.019 [Script AilKN6YKQA8C] Marking branches 0xoqRoiVQIMT_AilKN6YKQA8C as deleted
+20:37:10.019 [Script AilKN6YKQA8C] Marking branches AilKN6YKQA8C_fpayhErSJPgx as deleted
+20:37:10.019 [Script AilKN6YKQA8C] Deleting note 'fpayhErSJPgx'
+20:37:10.019 [Script AilKN6YKQA8C] Marking notes fpayhErSJPgx as deleted
+20:37:10.019 [Script AilKN6YKQA8C] Deleting note 'AilKN6YKQA8C'
+20:37:10.019 [Script AilKN6YKQA8C] Marking notes AilKN6YKQA8C as deleted
+20:37:10.019 [Script AilKN6YKQA8C] Marking branches 0xoqRoiVQIMT_ahd2dppBk5RN as deleted
+20:37:10.019 [Script AilKN6YKQA8C] Deleting note 'ahd2dppBk5RN'
+20:37:10.020 [Script AilKN6YKQA8C] Marking attributes wOQG3NAGV6l4 as deleted
+20:37:10.020 [Script AilKN6YKQA8C] Marking notes ahd2dppBk5RN as deleted
+20:37:10.020 [Script AilKN6YKQA8C] Marking branches 0xoqRoiVQIMT_gV6eo8tT9TIZ as deleted
+20:37:10.020 [Script AilKN6YKQA8C] Deleting note 'gV6eo8tT9TIZ'
+20:37:10.020 [Script AilKN6YKQA8C] Marking attributes MToUvPdc4s4t as deleted
+20:37:10.020 [Script AilKN6YKQA8C] Marking attributes UCdPuUN5ExdR as deleted
+20:37:10.020 [Script AilKN6YKQA8C] Marking attributes QA8EAZWestf3 as deleted
+20:37:10.020 [Script AilKN6YKQA8C] Marking attributes EEb16SBFmPoI as deleted
+20:37:10.020 [Script AilKN6YKQA8C] Marking attributes i3R0AAAQRku0 as deleted
+20:37:10.020 [Script AilKN6YKQA8C] Marking attributes TGzuTlHUUR8g as deleted
+20:37:10.020 [Script AilKN6YKQA8C] Marking attributes SZL7zIY8pX4z as deleted
+20:37:10.020 [Script AilKN6YKQA8C] Marking attributes GB57s7ySIuWA as deleted
+20:37:10.021 [Script AilKN6YKQA8C] Marking notes gV6eo8tT9TIZ as deleted
+20:37:10.021 [Script AilKN6YKQA8C] Marking branches 0xoqRoiVQIMT_vfvtJndPZvCL as deleted
+20:37:10.021 [Script AilKN6YKQA8C] Deleting note 'vfvtJndPZvCL'
+20:37:10.021 [Script AilKN6YKQA8C] Marking notes vfvtJndPZvCL as deleted
+20:37:10.021 [Script AilKN6YKQA8C] Deleting note '0xoqRoiVQIMT'
+20:37:10.021 [Script AilKN6YKQA8C] Marking attributes p9YEVhJYq3Oe as deleted
+20:37:10.021 [Script AilKN6YKQA8C] Marking notes 0xoqRoiVQIMT as deleted
+20:37:10.021 [Script AilKN6YKQA8C] Marking branches rXcZOPG0W20I_dXoAL6ighFq3 as deleted
+20:37:10.021 [Script AilKN6YKQA8C] Marking branches dXoAL6ighFq3_vZmPs3Fxlb8Y as deleted
+20:37:10.021 [Script AilKN6YKQA8C] Deleting note 'vZmPs3Fxlb8Y'
+20:37:10.021 [Script AilKN6YKQA8C] Marking attributes K4u9lzdMC05d as deleted
+20:37:10.021 [Script AilKN6YKQA8C] Marking notes vZmPs3Fxlb8Y as deleted
+20:37:10.021 [Script AilKN6YKQA8C] Marking branches dXoAL6ighFq3_hMVjrtrB2PZk as deleted
+20:37:10.022 [Script AilKN6YKQA8C] Marking branches hMVjrtrB2PZk_0ChfEBJM667E as deleted
+20:37:10.022 [Script AilKN6YKQA8C] Marking branches hMVjrtrB2PZk_WNAuuvkW5T2J as deleted
+20:37:10.022 [Script AilKN6YKQA8C] Deleting note 'hMVjrtrB2PZk'
+20:37:10.022 [Script AilKN6YKQA8C] Marking attributes sXocb49gRwO4 as deleted
+20:37:10.022 [Script AilKN6YKQA8C] Marking notes hMVjrtrB2PZk as deleted
+20:37:10.022 [Script AilKN6YKQA8C] Marking branches dXoAL6ighFq3_YFyAPoX9ZNd2 as deleted
+20:37:10.023 [Script AilKN6YKQA8C] Marking branches YFyAPoX9ZNd2_WNAuuvkW5T2J as deleted
+20:37:10.023 [Script AilKN6YKQA8C] Deleting note 'WNAuuvkW5T2J'
+20:37:10.023 [Script AilKN6YKQA8C] Marking attributes SO2H74wHsIjr as deleted
+20:37:10.023 [Script AilKN6YKQA8C] Marking attributes aIWSjEGBC4a7 as deleted
+20:37:10.023 [Script AilKN6YKQA8C] Marking attributes orfToIFzXvvb as deleted
+20:37:10.023 [Script AilKN6YKQA8C] Marking attributes VgRr9ERY4Rm1 as deleted
+20:37:10.023 [Script AilKN6YKQA8C] Marking attributes JO4qZs2jK2Z2 as deleted
+20:37:10.023 [Script AilKN6YKQA8C] Marking attributes FC69IE2t3Sqt as deleted
+20:37:10.023 [Script AilKN6YKQA8C] Marking attributes TVjxpLtnJybo as deleted
+20:37:10.023 [Script AilKN6YKQA8C] Marking attributes Shcu5kdOHgMK as deleted
+20:37:10.023 [Script AilKN6YKQA8C] Marking notes WNAuuvkW5T2J as deleted
+20:37:10.023 [Script AilKN6YKQA8C] Deleting note 'YFyAPoX9ZNd2'
+20:37:10.023 [Script AilKN6YKQA8C] Marking attributes gjUmQGzvf7m0 as deleted
+20:37:10.024 [Script AilKN6YKQA8C] Marking notes YFyAPoX9ZNd2 as deleted
+20:37:10.024 [Script AilKN6YKQA8C] Marking branches dXoAL6ighFq3_WBDkLpAecHDB as deleted
+20:37:10.024 [Script AilKN6YKQA8C] Marking branches WBDkLpAecHDB_0ChfEBJM667E as deleted
+20:37:10.024 [Script AilKN6YKQA8C] Marking branches 0ChfEBJM667E_zgfIHejcCWDs as deleted
+20:37:10.024 [Script AilKN6YKQA8C] Deleting note 'zgfIHejcCWDs'
+20:37:10.024 [Script AilKN6YKQA8C] Marking notes zgfIHejcCWDs as deleted
+20:37:10.024 [Script AilKN6YKQA8C] Deleting note '0ChfEBJM667E'
+20:37:10.024 [Script AilKN6YKQA8C] Marking attributes E5g3YT7HABE6 as deleted
+20:37:10.024 [Script AilKN6YKQA8C] Marking attributes v5xKGHp9oSXn as deleted
+20:37:10.024 [Script AilKN6YKQA8C] Marking attributes DXsfzmnkzzel as deleted
+20:37:10.024 [Script AilKN6YKQA8C] Marking attributes 1lbL3bMcFEGz as deleted
+20:37:10.025 [Script AilKN6YKQA8C] Marking attributes KPxkETF1XbgV as deleted
+20:37:10.025 [Script AilKN6YKQA8C] Marking attributes 2KLn74XjEFJI as deleted
+20:37:10.025 [Script AilKN6YKQA8C] Marking attributes NqluYYu73Df0 as deleted
+20:37:10.025 [Script AilKN6YKQA8C] Marking attributes IVkGkBCSrhKC as deleted
+20:37:10.025 [Script AilKN6YKQA8C] Marking notes 0ChfEBJM667E as deleted
+20:37:10.025 [Script AilKN6YKQA8C] Deleting note 'WBDkLpAecHDB'
+20:37:10.025 [Script AilKN6YKQA8C] Marking attributes kAipgRw4xIiQ as deleted
+20:37:10.025 [Script AilKN6YKQA8C] Marking notes WBDkLpAecHDB as deleted
+20:37:10.025 [Script AilKN6YKQA8C] Deleting note 'dXoAL6ighFq3'
+20:37:10.025 [Script AilKN6YKQA8C] Marking attributes 927L5g4SGJU2 as deleted
+20:37:10.025 [Script AilKN6YKQA8C] Marking attributes CrBE75pctsdQ as deleted
+20:37:10.025 [Script AilKN6YKQA8C] Marking notes dXoAL6ighFq3 as deleted
+20:37:10.025 [Script AilKN6YKQA8C] Marking branches rXcZOPG0W20I_STe9vQKZhxtP as deleted
+20:37:10.025 [Script AilKN6YKQA8C] Deleting note 'STe9vQKZhxtP'
+20:37:10.025 [Script AilKN6YKQA8C] Marking attributes TB9Eim4fQusu as deleted
+20:37:10.026 [Script AilKN6YKQA8C] Marking attributes N41CS71ODrnD as deleted
+20:37:10.026 [Script AilKN6YKQA8C] Marking attributes mNCmXbnTX2hv as deleted
+20:37:10.026 [Script AilKN6YKQA8C] Marking attributes 9Dy1Uedbilah as deleted
+20:37:10.026 [Script AilKN6YKQA8C] Marking notes STe9vQKZhxtP as deleted
+20:37:10.026 [Script AilKN6YKQA8C] Deleting note 'rXcZOPG0W20I'
+20:37:10.026 [Script AilKN6YKQA8C] Marking attributes nW9tCYW57CYc as deleted
+20:37:10.026 [Script AilKN6YKQA8C] Marking notes rXcZOPG0W20I as deleted
+20:37:10.026 [Script AilKN6YKQA8C] Marking branches XGr5SGZaJ0Od_vOA52IWisbZI as deleted
+20:37:10.026 [Script AilKN6YKQA8C] Deleting note 'vOA52IWisbZI'
+20:37:10.026 [Script AilKN6YKQA8C] Marking attributes e5kzL8lLETOV as deleted
+20:37:10.026 [Script AilKN6YKQA8C] Marking notes vOA52IWisbZI as deleted
+20:37:10.026 [Script AilKN6YKQA8C] Marking branches XGr5SGZaJ0Od_vAJB6DUB7l77 as deleted
+20:37:10.027 [Script AilKN6YKQA8C] Marking branches vAJB6DUB7l77_m7T95a7QVw29 as deleted
+20:37:10.027 [Script AilKN6YKQA8C] Marking branches m7T95a7QVw29_JKZceoWn860i as deleted
+20:37:10.027 [Script AilKN6YKQA8C] Marking branches JKZceoWn860i_CurwW1xWiKBN as deleted
+20:37:10.027 [Script AilKN6YKQA8C] Deleting note 'JKZceoWn860i'
+20:37:10.027 [Script AilKN6YKQA8C] Marking notes JKZceoWn860i as deleted
+20:37:10.027 [Script AilKN6YKQA8C] Deleting note 'm7T95a7QVw29'
+20:37:10.027 [Script AilKN6YKQA8C] Marking notes m7T95a7QVw29 as deleted
+20:37:10.027 [Script AilKN6YKQA8C] Deleting note 'vAJB6DUB7l77'
+20:37:10.027 [Script AilKN6YKQA8C] Marking attributes gbOhHzZ7FtUl as deleted
+20:37:10.027 [Script AilKN6YKQA8C] Marking attributes w3c7yPHDqf4O as deleted
+20:37:10.027 [Script AilKN6YKQA8C] Marking attributes ky674SXJjLQE as deleted
+20:37:10.027 [Script AilKN6YKQA8C] Marking attributes WV0C1FeFotyS as deleted
+20:37:10.028 [Script AilKN6YKQA8C] Marking notes vAJB6DUB7l77 as deleted
+20:37:10.028 [Script AilKN6YKQA8C] Marking branches XGr5SGZaJ0Od_6rvurKQKFlzl as deleted
+20:37:10.028 [Script AilKN6YKQA8C] Marking branches 6rvurKQKFlzl_2LY5cER5aHBO as deleted
+20:37:10.028 [Script AilKN6YKQA8C] Marking branches 2LY5cER5aHBO_sfuYtyKh0xYv as deleted
+20:37:10.028 [Script AilKN6YKQA8C] Marking branches sfuYtyKh0xYv_lRb2DJvvYXKA as deleted
+20:37:10.028 [Script AilKN6YKQA8C] Marking branches lRb2DJvvYXKA_WUOXJW9fUYfi as deleted
+20:37:10.028 [Script AilKN6YKQA8C] Marking branches lRb2DJvvYXKA_mRiuAgGtGWen as deleted
+20:37:10.028 [Script AilKN6YKQA8C] Deleting note 'mRiuAgGtGWen'
+20:37:10.028 [Script AilKN6YKQA8C] Marking notes mRiuAgGtGWen as deleted
+20:37:10.028 [Script AilKN6YKQA8C] Deleting note 'lRb2DJvvYXKA'
+20:37:10.029 [Script AilKN6YKQA8C] Marking notes lRb2DJvvYXKA as deleted
+20:37:10.029 [Script AilKN6YKQA8C] Deleting note 'sfuYtyKh0xYv'
+20:37:10.029 [Script AilKN6YKQA8C] Marking notes sfuYtyKh0xYv as deleted
+20:37:10.029 [Script AilKN6YKQA8C] Deleting note '2LY5cER5aHBO'
+20:37:10.029 [Script AilKN6YKQA8C] Marking attributes vMgDczl6mIen as deleted
+20:37:10.029 [Script AilKN6YKQA8C] Marking notes 2LY5cER5aHBO as deleted
+20:37:10.029 [Script AilKN6YKQA8C] Marking branches 6rvurKQKFlzl_qlbVkX3QXby9 as deleted
+20:37:10.030 [Script AilKN6YKQA8C] Marking branches qlbVkX3QXby9_lBck4D0quLp1 as deleted
+20:37:10.030 [Script AilKN6YKQA8C] Marking branches lBck4D0quLp1_RxktahXHGxVz as deleted
+20:37:10.030 [Script AilKN6YKQA8C] Deleting note 'RxktahXHGxVz'
+20:37:10.030 [Script AilKN6YKQA8C] Marking notes RxktahXHGxVz as deleted
+20:37:10.030 [Script AilKN6YKQA8C] Deleting note 'lBck4D0quLp1'
+20:37:10.030 [Script AilKN6YKQA8C] Marking notes lBck4D0quLp1 as deleted
+20:37:10.030 [Script AilKN6YKQA8C] Deleting note 'qlbVkX3QXby9'
+20:37:10.030 [Script AilKN6YKQA8C] Marking attributes IHBTRLuqFhiR as deleted
+20:37:10.030 [Script AilKN6YKQA8C] Marking notes qlbVkX3QXby9 as deleted
+20:37:10.031 [Script AilKN6YKQA8C] Marking branches 6rvurKQKFlzl_uFFmfZ73DH9K as deleted
+20:37:10.031 [Script AilKN6YKQA8C] Marking branches uFFmfZ73DH9K_7ZjV4GIIuv4A as deleted
+20:37:10.031 [Script AilKN6YKQA8C] Marking branches 7ZjV4GIIuv4A_jdhTB5jlk176 as deleted
+20:37:10.031 [Script AilKN6YKQA8C] Deleting note 'jdhTB5jlk176'
+20:37:10.031 [Script AilKN6YKQA8C] Marking notes jdhTB5jlk176 as deleted
+20:37:10.031 [Script AilKN6YKQA8C] Deleting note '7ZjV4GIIuv4A'
+20:37:10.031 [Script AilKN6YKQA8C] Marking notes 7ZjV4GIIuv4A as deleted
+20:37:10.031 [Script AilKN6YKQA8C] Deleting note 'uFFmfZ73DH9K'
+20:37:10.031 [Script AilKN6YKQA8C] Marking attributes qKPBabkPs3mo as deleted
+20:37:10.031 [Script AilKN6YKQA8C] Marking notes uFFmfZ73DH9K as deleted
+20:37:10.032 [Script AilKN6YKQA8C] Marking branches 6rvurKQKFlzl_YHTPVjFw7mMI as deleted
+20:37:10.032 [Script AilKN6YKQA8C] Marking branches YHTPVjFw7mMI_uVlNO50rEgOz as deleted
+20:37:10.032 [Script AilKN6YKQA8C] Marking branches uVlNO50rEgOz_IisKtSARkC1B as deleted
+20:37:10.032 [Script AilKN6YKQA8C] Deleting note 'IisKtSARkC1B'
+20:37:10.032 [Script AilKN6YKQA8C] Marking notes IisKtSARkC1B as deleted
+20:37:10.032 [Script AilKN6YKQA8C] Deleting note 'uVlNO50rEgOz'
+20:37:10.032 [Script AilKN6YKQA8C] Marking notes uVlNO50rEgOz as deleted
+20:37:10.032 [Script AilKN6YKQA8C] Deleting note 'YHTPVjFw7mMI'
+20:37:10.032 [Script AilKN6YKQA8C] Marking attributes EBZtM1EFV6B6 as deleted
+20:37:10.033 [Script AilKN6YKQA8C] Marking notes YHTPVjFw7mMI as deleted
+20:37:10.033 [Script AilKN6YKQA8C] Marking branches 6rvurKQKFlzl_nHTcvelBronf as deleted
+20:37:10.033 [Script AilKN6YKQA8C] Marking branches nHTcvelBronf_qTXHvi2QgzBj as deleted
+20:37:10.033 [Script AilKN6YKQA8C] Marking branches qTXHvi2QgzBj_lzZxrHIzrEBi as deleted
+20:37:10.033 [Script AilKN6YKQA8C] Marking branches lzZxrHIzrEBi_PlpL5OcIulKx as deleted
+20:37:10.034 [Script AilKN6YKQA8C] Deleting note 'PlpL5OcIulKx'
+20:37:10.034 [Script AilKN6YKQA8C] Marking notes PlpL5OcIulKx as deleted
+20:37:10.034 [Script AilKN6YKQA8C] Marking branches lzZxrHIzrEBi_WUOXJW9fUYfi as deleted
+20:37:10.034 [Script AilKN6YKQA8C] Marking branches WUOXJW9fUYfi_xP3ZjzoIgH6W as deleted
+20:37:10.034 [Script AilKN6YKQA8C] Marking branches xP3ZjzoIgH6W_CurwW1xWiKBN as deleted
+20:37:10.034 [Script AilKN6YKQA8C] Deleting note 'xP3ZjzoIgH6W'
+20:37:10.034 [Script AilKN6YKQA8C] Marking attributes VqYvJa0W0Qi5 as deleted
+20:37:10.034 [Script AilKN6YKQA8C] Marking notes xP3ZjzoIgH6W as deleted
+20:37:10.034 [Script AilKN6YKQA8C] Marking branches WUOXJW9fUYfi_CurwW1xWiKBN as deleted
+20:37:10.035 [Script AilKN6YKQA8C] Deleting note 'CurwW1xWiKBN'
+20:37:10.035 [Script AilKN6YKQA8C] Marking attributes qmMdokyUQ9rZ as deleted
+20:37:10.035 [Script AilKN6YKQA8C] Marking notes CurwW1xWiKBN as deleted
+20:37:10.035 [Script AilKN6YKQA8C] Deleting note 'WUOXJW9fUYfi'
+20:37:10.035 [Script AilKN6YKQA8C] Marking notes WUOXJW9fUYfi as deleted
+20:37:10.035 [Script AilKN6YKQA8C] Deleting note 'lzZxrHIzrEBi'
+20:37:10.035 [Script AilKN6YKQA8C] Marking notes lzZxrHIzrEBi as deleted
+20:37:10.035 [Script AilKN6YKQA8C] Deleting note 'qTXHvi2QgzBj'
+20:37:10.036 [Script AilKN6YKQA8C] Marking notes qTXHvi2QgzBj as deleted
+20:37:10.036 [Script AilKN6YKQA8C] Deleting note 'nHTcvelBronf'
+20:37:10.036 [Script AilKN6YKQA8C] Marking attributes SFVeSjHRhQGY as deleted
+20:37:10.036 [Script AilKN6YKQA8C] Marking notes nHTcvelBronf as deleted
+20:37:10.036 [Script AilKN6YKQA8C] Marking branches 6rvurKQKFlzl_5XDmwTJLY4kH as deleted
+20:37:10.036 [Script AilKN6YKQA8C] Marking branches 5XDmwTJLY4kH_ZSG6p2cRN9DZ as deleted
+20:37:10.036 [Script AilKN6YKQA8C] Marking branches ZSG6p2cRN9DZ_UmyH3pfZayBe as deleted
+20:37:10.036 [Script AilKN6YKQA8C] Deleting note 'UmyH3pfZayBe'
+20:37:10.036 [Script AilKN6YKQA8C] Marking notes UmyH3pfZayBe as deleted
+20:37:10.036 [Script AilKN6YKQA8C] Deleting note 'ZSG6p2cRN9DZ'
+20:37:10.036 [Script AilKN6YKQA8C] Marking notes ZSG6p2cRN9DZ as deleted
+20:37:10.036 [Script AilKN6YKQA8C] Deleting note '5XDmwTJLY4kH'
+20:37:10.036 [Script AilKN6YKQA8C] Marking attributes nZHemwuDbz01 as deleted
+20:37:10.037 [Script AilKN6YKQA8C] Marking notes 5XDmwTJLY4kH as deleted
+20:37:10.037 [Script AilKN6YKQA8C] Deleting note '6rvurKQKFlzl'
+20:37:10.037 [Script AilKN6YKQA8C] Marking attributes ngGHdaGd8TpR as deleted
+20:37:10.037 [Script AilKN6YKQA8C] Marking notes 6rvurKQKFlzl as deleted
+20:37:10.037 [Script AilKN6YKQA8C] Marking branches XGr5SGZaJ0Od_Ouy1ZmDlajlN as deleted
+20:37:10.037 [Script AilKN6YKQA8C] Deleting note 'Ouy1ZmDlajlN'
+20:37:10.037 [Script AilKN6YKQA8C] Marking attributes 4qLEik6v5VUn as deleted
+20:37:10.037 [Script AilKN6YKQA8C] Marking attributes NkIRItmzE0Wd as deleted
+20:37:10.038 [Script AilKN6YKQA8C] Marking notes Ouy1ZmDlajlN as deleted
+20:37:10.038 [Script AilKN6YKQA8C] Deleting note 'XGr5SGZaJ0Od'
+20:37:10.038 [Script AilKN6YKQA8C] Marking attributes QSbg59wSaezU as deleted
+20:37:10.038 [Script AilKN6YKQA8C] Marking notes XGr5SGZaJ0Od as deleted
+20:37:10.038 [Script AilKN6YKQA8C] Deleting note 'IkJrVDzHhHFO'
+20:37:10.039 [Script AilKN6YKQA8C] Marking attributes MiykWaX16sK8 as deleted
+20:37:10.039 [Script AilKN6YKQA8C] Marking attributes zSzJVOO1tjVP as deleted
+20:37:10.039 [Script AilKN6YKQA8C] Marking attributes uWQuzJe8Il82 as deleted
+20:37:10.039 [Script AilKN6YKQA8C] Marking attributes 8NNAT0ke0JzD as deleted
+20:37:10.039 [Script AilKN6YKQA8C] Marking attributes wwTp2pnlKXQG as deleted
+20:37:10.039 [Script AilKN6YKQA8C] Marking notes IkJrVDzHhHFO as deleted
+20:37:10.039 [Script AilKN6YKQA8C] Sending message to all clients: {"type":"taskSucceeded","taskId":"SWtu1rhasR","taskType":"deleteNotes","data":null}
+20:37:10.047 Slow 200 DELETE /api/branches/root_IkJrVDzHhHFO?taskId=SWtu1rhasR&eraseNotes=false&last=true with 20 bytes took 79ms
+20:37:10.050 200 GET /api/notes/root/blob with 155 bytes took 1ms
+20:37:10.050 200 GET /api/note-map/root/backlink-count with 11 bytes took 0ms
+20:37:10.051 204 PUT /api/options with 0 bytes took 0ms
+20:37:10.054 200 POST /api/tree/load with 42 bytes took 1ms
+20:37:10.168 200 GET /api/notes/fQ2QCEn1yAyd/blob with 2482 bytes took 0ms
+20:37:10.171 200 GET /api/notes/XWiojJtBlmel/blob with 155 bytes took 0ms
+20:37:11.465 200 GET /api/notes/XWiojJtBlmel/blob with 155 bytes took 1ms
+20:37:11.465 200 GET /api/note-map/XWiojJtBlmel/backlink-count with 11 bytes took 0ms
+20:37:11.468 204 PUT /api/options with 0 bytes took 1ms
+20:37:17.748 200 PUT /api/notes/XWiojJtBlmel/title with 326 bytes took 1ms
+20:37:17.751 200 GET /api/notes/XWiojJtBlmel/blob with 155 bytes took 0ms
+20:37:18.751 200 PUT /api/notes/XWiojJtBlmel/title with 319 bytes took 1ms
+20:37:19.755 200 PUT /api/notes/XWiojJtBlmel/title with 319 bytes took 1ms
+20:37:19.758 200 GET /api/notes/XWiojJtBlmel/blob with 155 bytes took 0ms
+20:37:20.757 200 PUT /api/notes/XWiojJtBlmel/title with 320 bytes took 1ms
+20:37:21.760 200 PUT /api/notes/XWiojJtBlmel/title with 324 bytes took 0ms
+20:37:21.763 200 GET /api/notes/XWiojJtBlmel/blob with 155 bytes took 0ms
+20:37:24.226 200 PUT /api/notes/XWiojJtBlmel/title with 325 bytes took 1ms
+20:37:24.229 200 GET /api/notes/XWiojJtBlmel/blob with 155 bytes took 1ms
+20:37:31.831 200 GET /api/search-templates with 16 bytes took 1ms
+20:37:31.834 200 GET /api/search-templates with 16 bytes took 1ms
+20:37:50.924 Created new note 'iLXZWCglWOmz', branch 'XWiojJtBlmel_iLXZWCglWOmz' of type 'text', mime 'text/html'
+20:37:50.925 200 POST /api/notes/XWiojJtBlmel/children?target=into&targetBranchId= with 554 bytes took 2ms
+20:37:50.928 200 POST /api/tree/load with 1209 bytes took 0ms
+20:37:50.942 200 GET /api/notes/iLXZWCglWOmz/blob with 155 bytes took 0ms
+20:37:50.943 200 GET /api/note-map/iLXZWCglWOmz/backlink-count with 11 bytes took 0ms
+20:37:50.944 204 PUT /api/branches/root_XWiojJtBlmel/expanded/1 with 0 bytes took 1ms
+20:37:50.944 204 PUT /api/options with 0 bytes took 0ms
+20:37:53.024 200 PUT /api/notes/iLXZWCglWOmz/title with 320 bytes took 1ms
+20:37:53.027 200 GET /api/notes/iLXZWCglWOmz/blob with 155 bytes took 0ms
+20:37:54.026 200 PUT /api/notes/iLXZWCglWOmz/title with 324 bytes took 1ms
+20:37:54.911 200 GET /api/notes/iLXZWCglWOmz/blob with 155 bytes took 0ms
+20:37:54.917 200 PUT /api/notes/iLXZWCglWOmz/title with 323 bytes took 1ms
+20:37:57.471 200 GET /api/search-templates with 16 bytes took 0ms
+20:37:57.473 200 GET /api/search-templates with 16 bytes took 1ms
+20:37:59.417 Created new note 'gD6HY4ygcYPY', branch 'iLXZWCglWOmz_gD6HY4ygcYPY' of type 'text', mime 'text/html'
+20:37:59.417 200 POST /api/notes/iLXZWCglWOmz/children?target=into&targetBranchId= with 554 bytes took 1ms
+20:37:59.421 200 POST /api/tree/load with 1480 bytes took 0ms
+20:37:59.435 200 GET /api/notes/gD6HY4ygcYPY/blob with 155 bytes took 0ms
+20:37:59.436 200 GET /api/note-map/gD6HY4ygcYPY/backlink-count with 11 bytes took 0ms
+20:37:59.437 204 PUT /api/branches/XWiojJtBlmel_iLXZWCglWOmz/expanded/1 with 0 bytes took 0ms
+20:37:59.440 204 PUT /api/options with 0 bytes took 1ms
+20:38:00.175 200 GET /api/search-templates with 16 bytes took 0ms
+20:38:00.177 200 GET /api/search-templates with 16 bytes took 1ms
+20:38:02.042 204 PUT /api/branches/XWiojJtBlmel_iLXZWCglWOmz/expanded/0 with 0 bytes took 0ms
+20:38:02.573 204 PUT /api/branches/XWiojJtBlmel_iLXZWCglWOmz/expanded/1 with 0 bytes took 0ms
+20:38:03.050 200 GET /api/search-templates with 16 bytes took 1ms
+20:38:03.050 200 GET /api/search-templates with 16 bytes took 0ms
+20:38:18.052 Created new note 'Ly1JT1SGA0d0', branch 'gD6HY4ygcYPY_Ly1JT1SGA0d0' of type 'book', mime ''
+20:38:18.053 200 POST /api/notes/gD6HY4ygcYPY/children?target=into&targetBranchId= with 545 bytes took 2ms
+20:38:18.056 200 POST /api/tree/load with 1746 bytes took 0ms
+20:38:18.081 200 GET /api/note-map/Ly1JT1SGA0d0/backlink-count with 11 bytes took 0ms
+20:38:18.083 204 PUT /api/branches/iLXZWCglWOmz_gD6HY4ygcYPY/expanded/1 with 0 bytes took 0ms
+20:38:18.083 204 PUT /api/options with 0 bytes took 0ms
+20:38:32.247 200 GET /api/notes/iLXZWCglWOmz/blob with 155 bytes took 0ms
+20:38:32.248 200 GET /api/note-map/iLXZWCglWOmz/backlink-count with 11 bytes took 0ms
+20:38:32.254 204 PUT /api/options with 0 bytes took 0ms
+20:38:32.267 200 GET /api/notes/gD6HY4ygcYPY/blob with 155 bytes took 0ms
+20:38:34.262 200 GET /api/note-map/Ly1JT1SGA0d0/backlink-count with 11 bytes took 0ms
+20:38:34.265 204 PUT /api/options with 0 bytes took 0ms
+20:38:36.902 200 GET /api/search-templates with 16 bytes took 0ms
+20:38:36.903 200 GET /api/search-templates with 16 bytes took 0ms
+20:38:38.764 Created new note 'UwsuMseEqdIP', branch 'Ly1JT1SGA0d0_UwsuMseEqdIP' of type 'code', mime 'text/plain'
+20:38:38.764 200 POST /api/notes/Ly1JT1SGA0d0/children?target=into&targetBranchId= with 555 bytes took 1ms
+20:38:38.768 200 POST /api/tree/load with 2022 bytes took 0ms
+20:38:38.780 200 GET /api/notes/UwsuMseEqdIP/blob with 155 bytes took 0ms
+20:38:38.781 200 GET /api/note-map/UwsuMseEqdIP/backlink-count with 11 bytes took 0ms
+20:38:38.784 204 PUT /api/branches/gD6HY4ygcYPY_Ly1JT1SGA0d0/expanded/1 with 0 bytes took 1ms
+20:38:38.784 204 PUT /api/options with 0 bytes took 0ms
+20:38:40.376 200 GET /api/search-templates with 16 bytes took 1ms
+20:38:40.377 200 GET /api/search-templates with 16 bytes took 0ms
+20:38:45.660 200 POST /api/delete-notes-preview with 60 bytes took 0ms
+20:38:47.031 Sending message to all clients: {"type":"taskProgressCount","taskId":"BXll7bWJJT","taskType":"deleteNotes","data":null,"progressCount":0}
+20:38:47.032 Marking branches Ly1JT1SGA0d0_UwsuMseEqdIP as deleted
+20:38:47.032 Deleting note 'UwsuMseEqdIP'
+20:38:47.032 Marking notes UwsuMseEqdIP as deleted
+20:38:47.032 Sending message to all clients: {"type":"taskSucceeded","taskId":"BXll7bWJJT","taskType":"deleteNotes","data":null}
+20:38:47.033 200 DELETE /api/branches/Ly1JT1SGA0d0_UwsuMseEqdIP?taskId=BXll7bWJJT&eraseNotes=false&last=true with 20 bytes took 2ms
+20:38:47.048 200 GET /api/note-map/Ly1JT1SGA0d0/backlink-count with 11 bytes took 0ms
+20:38:47.057 204 PUT /api/options with 0 bytes took 1ms
+20:38:47.062 ERROR: get /api/notes/:noteId/blob threw exception: 'Entity notes 'UwsuMseEqdIP' was not found.', stack: undefined
+20:38:50.191 200 GET /api/search-templates with 16 bytes took 0ms
+20:38:50.193 200 GET /api/search-templates with 16 bytes took 0ms
+20:38:57.044 Created new note 'xnbm7O7A2uXL', branch 'Ly1JT1SGA0d0_xnbm7O7A2uXL' of type 'text', mime 'text/html'
+20:38:57.045 200 POST /api/notes/Ly1JT1SGA0d0/children?target=into&targetBranchId= with 554 bytes took 2ms
+20:38:57.049 200 POST /api/tree/load with 2020 bytes took 0ms
+20:38:57.065 200 GET /api/notes/xnbm7O7A2uXL/blob with 155 bytes took 0ms
+20:38:57.066 200 GET /api/note-map/xnbm7O7A2uXL/backlink-count with 11 bytes took 0ms
+20:38:57.069 204 PUT /api/options with 0 bytes took 1ms
+20:39:51.654 204 PUT /api/notes/xnbm7O7A2uXL/data with 0 bytes took 2ms
+20:39:51.657 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 0ms
+20:40:06.177 200 GET /api/notes/gD6HY4ygcYPY/blob with 155 bytes took 0ms
+20:40:06.177 200 GET /api/note-map/gD6HY4ygcYPY/backlink-count with 11 bytes took 0ms
+20:40:06.181 204 PUT /api/options with 0 bytes took 0ms
+20:40:06.714 200 GET /api/note-map/Ly1JT1SGA0d0/backlink-count with 11 bytes took 0ms
+20:40:06.818 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 0ms
+20:40:07.184 204 PUT /api/options with 0 bytes took 1ms
+20:40:12.995 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 0ms
+20:40:12.995 200 GET /api/note-map/xnbm7O7A2uXL/backlink-count with 11 bytes took 0ms
+20:40:13.003 204 PUT /api/options with 0 bytes took 1ms
+20:40:14.140 200 GET /api/note-map/Ly1JT1SGA0d0/backlink-count with 11 bytes took 0ms
+20:40:14.143 204 PUT /api/options with 0 bytes took 1ms
+20:40:14.149 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 0ms
+20:40:15.267 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 0ms
+20:40:15.268 200 GET /api/note-map/xnbm7O7A2uXL/backlink-count with 11 bytes took 0ms
+20:40:15.274 204 PUT /api/options with 0 bytes took 0ms
+20:40:17.396 200 GET /api/note-map/Ly1JT1SGA0d0/backlink-count with 11 bytes took 0ms
+20:40:17.399 204 PUT /api/options with 0 bytes took 1ms
+20:40:17.405 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 0ms
+20:40:18.777 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 0ms
+20:40:18.778 200 GET /api/note-map/xnbm7O7A2uXL/backlink-count with 11 bytes took 0ms
+20:40:18.784 204 PUT /api/options with 0 bytes took 1ms
+20:40:21.160 200 GET /api/note-map/Ly1JT1SGA0d0/backlink-count with 11 bytes took 0ms
+20:40:21.163 204 PUT /api/options with 0 bytes took 1ms
+20:40:21.168 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 1ms
+20:40:37.784 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 1ms
+20:40:37.784 200 GET /api/note-map/xnbm7O7A2uXL/backlink-count with 11 bytes took 0ms
+20:40:37.791 204 PUT /api/options with 0 bytes took 0ms
+20:40:41.823 200 GET /api/note-map/Ly1JT1SGA0d0/backlink-count with 11 bytes took 0ms
+20:40:41.826 204 PUT /api/options with 0 bytes took 1ms
+20:40:41.835 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 1ms
+20:40:43.693 204 PUT /api/notes/Ly1JT1SGA0d0/set-attribute with 0 bytes took 1ms
+20:40:54.955 Marking branches gD6HY4ygcYPY_Ly1JT1SGA0d0 as deleted
+20:40:54.955 Moved note Ly1JT1SGA0d0, branch gD6HY4ygcYPY_Ly1JT1SGA0d0 after note iLXZWCglWOmz, branch XWiojJtBlmel_iLXZWCglWOmz
+20:40:54.956 200 PUT /api/branches/gD6HY4ygcYPY_Ly1JT1SGA0d0/move-after/XWiojJtBlmel_iLXZWCglWOmz with 16 bytes took 2ms
+20:40:54.961 200 GET /api/tree?subTreeNoteId=Ly1JT1SGA0d0 with 1758 bytes took 1ms
+20:40:57.190 200 GET /api/search-templates with 16 bytes took 0ms
+20:40:57.191 200 GET /api/search-templates with 16 bytes took 0ms
+20:41:00.199 Created new note 'Qo0VzMZ3AXVh', branch 'gD6HY4ygcYPY_Qo0VzMZ3AXVh' of type 'text', mime 'text/html'
+20:41:00.200 200 POST /api/notes/gD6HY4ygcYPY/children?target=into&targetBranchId= with 554 bytes took 2ms
+20:41:00.201 200 POST /api/tree/load with 1899 bytes took 0ms
+20:41:00.216 200 GET /api/notes/Qo0VzMZ3AXVh/blob with 155 bytes took 0ms
+20:41:00.217 200 GET /api/note-map/Qo0VzMZ3AXVh/backlink-count with 11 bytes took 0ms
+20:41:00.220 204 PUT /api/options with 0 bytes took 1ms
+20:41:03.755 200 PUT /api/notes/Qo0VzMZ3AXVh/title with 319 bytes took 1ms
+20:41:03.758 200 GET /api/notes/Qo0VzMZ3AXVh/blob with 155 bytes took 0ms
+20:41:06.013 200 GET /api/notes/Qo0VzMZ3AXVh/blob with 155 bytes took 0ms
+20:41:06.014 200 GET /api/note-map/Qo0VzMZ3AXVh/backlink-count with 11 bytes took 0ms
+20:41:06.017 204 PUT /api/options with 0 bytes took 1ms
+20:41:06.558 200 GET /api/note-map/Qo0VzMZ3AXVh/backlink-count with 11 bytes took 1ms
+20:41:07.022 204 PUT /api/options with 0 bytes took 1ms
+20:41:07.491 200 POST /api/delete-notes-preview with 60 bytes took 0ms
+20:41:08.807 Sending message to all clients: {"type":"taskProgressCount","taskId":"9eNVNx0JcL","taskType":"deleteNotes","data":null,"progressCount":0}
+20:41:08.808 Marking branches gD6HY4ygcYPY_Qo0VzMZ3AXVh as deleted
+20:41:08.808 Deleting note 'Qo0VzMZ3AXVh'
+20:41:08.808 Marking notes Qo0VzMZ3AXVh as deleted
+20:41:08.808 Sending message to all clients: {"type":"taskSucceeded","taskId":"9eNVNx0JcL","taskType":"deleteNotes","data":null}
+20:41:08.809 200 DELETE /api/branches/gD6HY4ygcYPY_Qo0VzMZ3AXVh?taskId=9eNVNx0JcL&eraseNotes=false&last=true with 20 bytes took 2ms
+20:41:08.815 200 GET /api/notes/gD6HY4ygcYPY/blob with 155 bytes took 0ms
+20:41:08.816 200 GET /api/note-map/gD6HY4ygcYPY/backlink-count with 11 bytes took 1ms
+20:41:08.825 204 PUT /api/options with 0 bytes took 0ms
+20:41:11.187 200 GET /api/notes/gD6HY4ygcYPY/blob with 155 bytes took 0ms
+20:41:11.189 200 GET /api/note-map/gD6HY4ygcYPY/backlink-count with 11 bytes took 0ms
+20:41:11.191 204 PUT /api/options with 0 bytes took 1ms
+20:41:12.774 200 POST /api/delete-notes-preview with 60 bytes took 0ms
+20:41:14.298 Sending message to all clients: {"type":"taskProgressCount","taskId":"GIqXqAZJTw","taskType":"deleteNotes","data":null,"progressCount":0}
+20:41:14.298 Marking branches iLXZWCglWOmz_gD6HY4ygcYPY as deleted
+20:41:14.298 Deleting note 'gD6HY4ygcYPY'
+20:41:14.298 Marking notes gD6HY4ygcYPY as deleted
+20:41:14.299 Sending message to all clients: {"type":"taskSucceeded","taskId":"GIqXqAZJTw","taskType":"deleteNotes","data":null}
+20:41:14.299 200 DELETE /api/branches/iLXZWCglWOmz_gD6HY4ygcYPY?taskId=GIqXqAZJTw&eraseNotes=false&last=true with 20 bytes took 1ms
+20:41:14.305 200 GET /api/notes/iLXZWCglWOmz/blob with 155 bytes took 0ms
+20:41:14.305 200 GET /api/note-map/iLXZWCglWOmz/backlink-count with 11 bytes took 0ms
+20:41:14.314 204 PUT /api/options with 0 bytes took 0ms
+20:41:18.645 204 PUT /api/branches/root_XWiojJtBlmel/expanded/0 with 0 bytes took 0ms
+20:41:19.181 204 PUT /api/branches/root_XWiojJtBlmel/expanded/1 with 0 bytes took 1ms
+20:41:19.966 200 GET /api/notes/iLXZWCglWOmz/blob with 155 bytes took 0ms
+20:41:19.967 200 GET /api/note-map/iLXZWCglWOmz/backlink-count with 11 bytes took 0ms
+20:41:19.969 204 PUT /api/options with 0 bytes took 0ms
+20:41:21.058 200 GET /api/note-map/Ly1JT1SGA0d0/backlink-count with 11 bytes took 0ms
+20:41:21.061 204 PUT /api/options with 0 bytes took 1ms
+20:41:21.973 204 PUT /api/branches/XWiojJtBlmel_Ly1JT1SGA0d0/expanded/0 with 0 bytes took 0ms
+20:41:22.544 204 PUT /api/branches/XWiojJtBlmel_Ly1JT1SGA0d0/expanded/1 with 0 bytes took 0ms
+20:41:23.354 204 PUT /api/branches/XWiojJtBlmel_Ly1JT1SGA0d0/expanded/0 with 0 bytes took 0ms
+20:41:23.994 204 PUT /api/branches/XWiojJtBlmel_Ly1JT1SGA0d0/expanded/1 with 0 bytes took 0ms
+20:41:24.564 204 PUT /api/branches/XWiojJtBlmel_Ly1JT1SGA0d0/expanded/0 with 0 bytes took 0ms
+20:41:24.935 204 PUT /api/branches/XWiojJtBlmel_Ly1JT1SGA0d0/expanded/1 with 0 bytes took 1ms
+20:41:26.019 200 GET /api/notes/iLXZWCglWOmz/blob with 155 bytes took 0ms
+20:41:26.019 200 GET /api/note-map/iLXZWCglWOmz/backlink-count with 11 bytes took 0ms
+20:41:26.023 204 PUT /api/options with 0 bytes took 1ms
+20:41:26.911 200 GET /api/search-templates with 16 bytes took 0ms
+20:41:26.912 200 GET /api/search-templates with 16 bytes took 0ms
+20:41:30.436 200 GET /api/note-map/Ly1JT1SGA0d0/backlink-count with 11 bytes took 1ms
+20:41:30.439 204 PUT /api/options with 0 bytes took 1ms
+20:41:33.616 Marking branches XWiojJtBlmel_Ly1JT1SGA0d0 as deleted
+20:41:33.616 200 PUT /api/branches/XWiojJtBlmel_Ly1JT1SGA0d0/move-to/XWiojJtBlmel_iLXZWCglWOmz with 232 bytes took 1ms
+20:41:33.620 200 GET /api/tree?subTreeNoteId=Ly1JT1SGA0d0 with 1883 bytes took 0ms
+20:41:58.977 200 PUT /api/notes/Ly1JT1SGA0d0/title with 311 bytes took 1ms
+20:41:59.978 200 PUT /api/notes/Ly1JT1SGA0d0/title with 313 bytes took 0ms
+20:42:00.983 200 PUT /api/notes/Ly1JT1SGA0d0/title with 310 bytes took 0ms
+20:42:01.985 200 PUT /api/notes/Ly1JT1SGA0d0/title with 313 bytes took 0ms
+20:42:02.988 200 PUT /api/notes/Ly1JT1SGA0d0/title with 316 bytes took 1ms
+20:42:08.182 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 1ms
+20:42:08.182 200 GET /api/note-map/xnbm7O7A2uXL/backlink-count with 11 bytes took 0ms
+20:42:08.188 204 PUT /api/options with 0 bytes took 1ms
+20:42:10.582 200 GET /api/note-map/Ly1JT1SGA0d0/backlink-count with 11 bytes took 1ms
+20:42:10.585 204 PUT /api/options with 0 bytes took 1ms
+20:42:11.685 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 0ms
+20:42:11.686 200 GET /api/note-map/xnbm7O7A2uXL/backlink-count with 11 bytes took 1ms
+20:42:11.689 204 PUT /api/options with 0 bytes took 0ms
+20:42:46.744 200 PUT /api/notes/xnbm7O7A2uXL/title with 320 bytes took 1ms
+20:42:46.749 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 0ms
+20:42:47.794 200 PUT /api/notes/xnbm7O7A2uXL/title with 321 bytes took 1ms
+20:42:47.798 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 1ms
+20:42:49.422 200 PUT /api/notes/xnbm7O7A2uXL/title with 322 bytes took 1ms
+20:42:49.424 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 0ms
+20:42:50.423 200 PUT /api/notes/xnbm7O7A2uXL/title with 321 bytes took 1ms
+20:42:51.424 200 PUT /api/notes/xnbm7O7A2uXL/title with 321 bytes took 0ms
+20:42:51.427 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 0ms
+20:42:52.427 200 PUT /api/notes/xnbm7O7A2uXL/title with 322 bytes took 1ms
+20:42:53.429 200 PUT /api/notes/xnbm7O7A2uXL/title with 325 bytes took 1ms
+20:42:53.432 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 0ms
+20:42:54.430 200 PUT /api/notes/xnbm7O7A2uXL/title with 324 bytes took 1ms
+20:42:57.768 200 PUT /api/notes/xnbm7O7A2uXL/title with 323 bytes took 1ms
+20:42:57.772 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 0ms
+20:42:58.772 200 PUT /api/notes/xnbm7O7A2uXL/title with 319 bytes took 1ms
+20:43:05.400 200 PUT /api/notes/xnbm7O7A2uXL/title with 320 bytes took 1ms
+20:43:05.405 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 1ms
+20:43:11.612 200 GET /api/note-map/Ly1JT1SGA0d0/backlink-count with 11 bytes took 1ms
+20:43:11.622 204 PUT /api/options with 0 bytes took 8ms
+20:43:14.812 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 1ms
+20:43:14.812 200 GET /api/note-map/xnbm7O7A2uXL/backlink-count with 11 bytes took 0ms
+20:43:14.819 204 PUT /api/options with 0 bytes took 3ms
+20:43:16.821 200 GET /api/note-map/Ly1JT1SGA0d0/backlink-count with 11 bytes took 0ms
+20:43:16.825 204 PUT /api/options with 0 bytes took 1ms
+20:43:21.019 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 1ms
+20:43:26.681 200 PUT /api/notes/Ly1JT1SGA0d0/attribute with 30 bytes took 0ms
+20:43:26.690 200 GET /api/notes/xnbm7O7A2uXL/blob with 6455 bytes took 1ms
+20:43:27.722 Marking attributes odF8Br4ZUFLd as deleted
+20:43:27.722 204 DELETE /api/notes/Ly1JT1SGA0d0/attributes/odF8Br4ZUFLd with 0 bytes took 0ms
+20:43:32.032 200 GET /api/notes/XWiojJtBlmel/blob with 155 bytes took 0ms
+20:43:32.032 200 GET /api/note-map/XWiojJtBlmel/backlink-count with 11 bytes took 0ms
+20:43:32.036 204 PUT /api/options with 0 bytes took 0ms
+20:43:32.149 200 GET /api/notes/iLXZWCglWOmz/blob with 155 bytes took 0ms
+20:43:33.202 204 PUT /api/branches/root_XWiojJtBlmel/expanded/0 with 0 bytes took 0ms
+20:43:35.890 Created new note 'Yu8QnABxIjTK', branch 'root_Yu8QnABxIjTK' of type 'text', mime 'text/html'
+20:43:35.891 200 POST /api/notes/root/children?target=into&targetBranchId= with 538 bytes took 2ms
+20:43:35.892 200 POST /api/tree/load with 917 bytes took 0ms
+20:43:35.906 200 GET /api/notes/Yu8QnABxIjTK/blob with 155 bytes took 1ms
+20:43:35.906 200 GET /api/note-map/Yu8QnABxIjTK/backlink-count with 11 bytes took 0ms
+20:43:35.908 204 PUT /api/options with 0 bytes took 0ms
+20:43:37.474 200 PUT /api/notes/Yu8QnABxIjTK/title with 320 bytes took 1ms
+20:43:37.476 200 GET /api/notes/Yu8QnABxIjTK/blob with 155 bytes took 0ms
+20:43:38.478 200 PUT /api/notes/Yu8QnABxIjTK/title with 322 bytes took 0ms
+20:43:38.481 200 GET /api/notes/Yu8QnABxIjTK/blob with 155 bytes took 0ms
+20:43:39.482 200 PUT /api/notes/Yu8QnABxIjTK/title with 323 bytes took 1ms
+20:43:40.486 200 PUT /api/notes/Yu8QnABxIjTK/title with 325 bytes took 1ms
+20:43:40.489 200 GET /api/notes/Yu8QnABxIjTK/blob with 155 bytes took 0ms
+20:43:41.489 200 PUT /api/notes/Yu8QnABxIjTK/title with 326 bytes took 0ms
+20:43:41.889 200 GET /api/notes/Yu8QnABxIjTK/blob with 155 bytes took 1ms
+20:43:44.331 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:43:44.333 200 GET /api/notes/Yu8QnABxIjTK/blob with 163 bytes took 0ms
+20:43:51.714 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:43:51.719 200 GET /api/notes/Yu8QnABxIjTK/blob with 164 bytes took 1ms
+20:43:52.716 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:43:52.720 200 GET /api/notes/Yu8QnABxIjTK/blob with 166 bytes took 1ms
+20:43:53.718 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:43:53.722 200 GET /api/notes/Yu8QnABxIjTK/blob with 167 bytes took 1ms
+20:43:54.724 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:43:54.727 200 GET /api/notes/Yu8QnABxIjTK/blob with 166 bytes took 0ms
+20:43:58.123 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:43:58.128 200 GET /api/notes/Yu8QnABxIjTK/blob with 164 bytes took 1ms
+20:43:59.125 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:43:59.129 200 GET /api/notes/Yu8QnABxIjTK/blob with 163 bytes took 1ms
+20:44:03.854 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:03.862 200 GET /api/notes/Yu8QnABxIjTK/blob with 164 bytes took 1ms
+20:44:04.855 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:04.858 200 GET /api/notes/Yu8QnABxIjTK/blob with 174 bytes took 0ms
+20:44:26.139 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:26.144 200 GET /api/notes/Yu8QnABxIjTK/blob with 163 bytes took 0ms
+20:44:27.145 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:27.148 200 GET /api/notes/Yu8QnABxIjTK/blob with 166 bytes took 0ms
+20:44:28.148 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:28.156 200 GET /api/notes/Yu8QnABxIjTK/blob with 170 bytes took 0ms
+20:44:29.151 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:29.154 200 GET /api/notes/Yu8QnABxIjTK/blob with 180 bytes took 0ms
+20:44:31.642 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:44:31.644 200 GET /api/notes/Yu8QnABxIjTK/blob with 176 bytes took 0ms
+20:44:32.645 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:32.648 200 GET /api/notes/Yu8QnABxIjTK/blob with 181 bytes took 0ms
+20:44:34.351 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:34.354 200 GET /api/notes/Yu8QnABxIjTK/blob with 182 bytes took 0ms
+20:44:35.357 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:35.360 200 GET /api/notes/Yu8QnABxIjTK/blob with 188 bytes took 0ms
+20:44:36.359 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:36.362 200 GET /api/notes/Yu8QnABxIjTK/blob with 185 bytes took 0ms
+20:44:37.365 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:44:37.367 200 GET /api/notes/Yu8QnABxIjTK/blob with 188 bytes took 0ms
+20:44:38.367 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:38.370 200 GET /api/notes/Yu8QnABxIjTK/blob with 192 bytes took 0ms
+20:44:39.371 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:39.374 200 GET /api/notes/Yu8QnABxIjTK/blob with 199 bytes took 1ms
+20:44:40.374 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:44:40.377 200 GET /api/notes/Yu8QnABxIjTK/blob with 208 bytes took 0ms
+20:44:41.377 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:44:41.380 200 GET /api/notes/Yu8QnABxIjTK/blob with 210 bytes took 1ms
+20:44:42.378 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:42.380 200 GET /api/notes/Yu8QnABxIjTK/blob with 219 bytes took 0ms
+20:44:43.383 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:44:43.386 200 GET /api/notes/Yu8QnABxIjTK/blob with 230 bytes took 1ms
+20:44:44.389 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 3ms
+20:44:44.391 200 GET /api/notes/Yu8QnABxIjTK/blob with 226 bytes took 0ms
+20:44:45.392 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:45.395 200 GET /api/notes/Yu8QnABxIjTK/blob with 231 bytes took 0ms
+20:44:46.393 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:46.397 200 GET /api/notes/Yu8QnABxIjTK/blob with 233 bytes took 1ms
+20:44:47.397 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:47.400 200 GET /api/notes/Yu8QnABxIjTK/blob with 243 bytes took 0ms
+20:44:48.401 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:48.404 200 GET /api/notes/Yu8QnABxIjTK/blob with 243 bytes took 0ms
+20:44:49.404 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:49.407 200 GET /api/notes/Yu8QnABxIjTK/blob with 245 bytes took 0ms
+20:44:50.408 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:44:50.411 200 GET /api/notes/Yu8QnABxIjTK/blob with 243 bytes took 0ms
+20:44:51.412 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:51.414 200 GET /api/notes/Yu8QnABxIjTK/blob with 247 bytes took 0ms
+20:44:52.413 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:52.416 200 GET /api/notes/Yu8QnABxIjTK/blob with 247 bytes took 1ms
+20:44:53.417 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:44:53.419 200 GET /api/notes/Yu8QnABxIjTK/blob with 257 bytes took 0ms
+20:44:54.419 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:54.422 200 GET /api/notes/Yu8QnABxIjTK/blob with 262 bytes took 0ms
+20:44:55.420 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:44:55.423 200 GET /api/notes/Yu8QnABxIjTK/blob with 267 bytes took 0ms
+20:45:01.644 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:45:01.648 200 GET /api/notes/Yu8QnABxIjTK/blob with 254 bytes took 0ms
+20:45:03.007 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:45:03.010 200 GET /api/notes/Yu8QnABxIjTK/blob with 248 bytes took 0ms
+20:45:04.009 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:45:04.012 200 GET /api/notes/Yu8QnABxIjTK/blob with 235 bytes took 0ms
+20:45:05.012 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:45:05.015 200 GET /api/notes/Yu8QnABxIjTK/blob with 233 bytes took 0ms
+20:45:11.403 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:45:11.408 200 GET /api/notes/Yu8QnABxIjTK/blob with 239 bytes took 0ms
+20:45:12.408 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:45:12.411 200 GET /api/notes/Yu8QnABxIjTK/blob with 251 bytes took 1ms
+20:45:15.143 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 7ms
+20:45:15.148 200 GET /api/notes/Yu8QnABxIjTK/blob with 195 bytes took 1ms
+20:45:17.199 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 4ms
+20:45:17.202 200 GET /api/notes/Yu8QnABxIjTK/blob with 251 bytes took 1ms
+20:45:19.034 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:45:19.037 200 GET /api/notes/Yu8QnABxIjTK/blob with 248 bytes took 0ms
+20:45:22.169 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:45:22.173 200 GET /api/notes/Yu8QnABxIjTK/blob with 254 bytes took 0ms
+20:45:23.173 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:45:23.175 200 GET /api/notes/Yu8QnABxIjTK/blob with 255 bytes took 0ms
+20:45:24.175 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:45:24.178 200 GET /api/notes/Yu8QnABxIjTK/blob with 257 bytes took 0ms
+20:45:25.177 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 1ms
+20:45:25.181 200 GET /api/notes/Yu8QnABxIjTK/blob with 263 bytes took 1ms
+20:45:26.179 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:45:26.182 200 GET /api/notes/Yu8QnABxIjTK/blob with 264 bytes took 1ms
+20:45:27.184 204 PUT /api/notes/Yu8QnABxIjTK/data with 0 bytes took 2ms
+20:45:27.187 200 GET /api/notes/Yu8QnABxIjTK/blob with 268 bytes took 1ms
+20:45:35.870 200 GET /api/search-templates with 16 bytes took 1ms
+20:45:35.871 200 GET /api/search-templates with 16 bytes took 0ms
+20:45:39.318 200 GET /api/other/icon-usage with 334 bytes took 0ms
+20:45:51.846 204 PUT /api/notes/Yu8QnABxIjTK/set-attribute with 0 bytes took 0ms
+20:45:56.585 Created new note 'cTf99oLEiSZl', branch 'root_cTf99oLEiSZl' of type 'text', mime 'text/html'
+20:45:56.586 200 POST /api/notes/root/children?target=into&targetBranchId= with 538 bytes took 2ms
+20:45:56.588 200 POST /api/tree/load with 1047 bytes took 0ms
+20:45:56.603 200 GET /api/notes/cTf99oLEiSZl/blob with 155 bytes took 1ms
+20:45:56.603 200 GET /api/note-map/cTf99oLEiSZl/backlink-count with 11 bytes took 0ms
+20:45:56.605 204 PUT /api/options with 0 bytes took 1ms
+20:46:01.735 200 PUT /api/notes/cTf99oLEiSZl/title with 320 bytes took 1ms
+20:46:01.739 200 GET /api/notes/cTf99oLEiSZl/blob with 155 bytes took 1ms
+20:46:02.738 200 PUT /api/notes/cTf99oLEiSZl/title with 324 bytes took 1ms
+20:46:04.890 200 GET /api/other/icon-usage with 334 bytes took 0ms
+20:46:08.516 204 PUT /api/notes/cTf99oLEiSZl/set-attribute with 0 bytes took 1ms
+20:46:19.094 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 1ms
+20:46:19.099 200 GET /api/notes/cTf99oLEiSZl/blob with 163 bytes took 0ms
+20:46:20.095 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 1ms
+20:46:20.099 200 GET /api/notes/cTf99oLEiSZl/blob with 170 bytes took 1ms
+20:46:21.099 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 1ms
+20:46:21.102 200 GET /api/notes/cTf99oLEiSZl/blob with 180 bytes took 1ms
+20:46:22.108 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 1ms
+20:46:22.111 200 GET /api/notes/cTf99oLEiSZl/blob with 189 bytes took 1ms
+20:46:23.109 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 1ms
+20:46:23.112 200 GET /api/notes/cTf99oLEiSZl/blob with 193 bytes took 0ms
+20:46:24.114 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 1ms
+20:46:24.117 200 GET /api/notes/cTf99oLEiSZl/blob with 199 bytes took 0ms
+20:46:25.119 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 1ms
+20:46:25.122 200 GET /api/notes/cTf99oLEiSZl/blob with 200 bytes took 0ms
+20:46:26.123 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 1ms
+20:46:26.126 200 GET /api/notes/cTf99oLEiSZl/blob with 208 bytes took 0ms
+20:46:27.528 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 2ms
+20:46:27.531 200 GET /api/notes/cTf99oLEiSZl/blob with 204 bytes took 0ms
+20:46:28.532 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 1ms
+20:46:28.536 200 GET /api/notes/cTf99oLEiSZl/blob with 205 bytes took 1ms
+20:46:32.732 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 2ms
+20:46:32.737 200 GET /api/notes/cTf99oLEiSZl/blob with 204 bytes took 0ms
+20:46:33.735 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 1ms
+20:46:33.738 200 GET /api/notes/cTf99oLEiSZl/blob with 208 bytes took 0ms
+20:46:34.738 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 2ms
+20:46:34.741 200 GET /api/notes/cTf99oLEiSZl/blob with 209 bytes took 0ms
+20:46:35.740 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 1ms
+20:46:35.743 200 GET /api/notes/cTf99oLEiSZl/blob with 218 bytes took 0ms
+20:46:36.744 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 1ms
+20:46:36.747 200 GET /api/notes/cTf99oLEiSZl/blob with 224 bytes took 0ms
+20:46:37.747 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 3ms
+20:46:37.749 200 GET /api/notes/cTf99oLEiSZl/blob with 234 bytes took 0ms
+20:46:38.749 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 2ms
+20:46:38.752 200 GET /api/notes/cTf99oLEiSZl/blob with 239 bytes took 0ms
+20:46:39.749 204 PUT /api/notes/cTf99oLEiSZl/data with 0 bytes took 1ms
+20:46:39.752 200 GET /api/notes/cTf99oLEiSZl/blob with 241 bytes took 0ms
+20:56:39.759 204 PUT /api/branches/fQ2QCEn1yAyd_VvXAe3z3AGMK/expanded/0 with 0 bytes took 1ms
+20:56:39.760 204 PUT /api/branches/VvXAe3z3AGMK_njuDxBj3ak7u/expanded/0 with 0 bytes took 1ms
+20:56:39.760 204 PUT /api/branches/njuDxBj3ak7u_IBMV8ZUJhKm7/expanded/0 with 0 bytes took 0ms
+20:56:39.762 204 PUT /api/branches/VvXAe3z3AGMK_dYHukj5T72ZT/expanded/0 with 0 bytes took 0ms
+20:56:39.762 204 PUT /api/branches/dYHukj5T72ZT_uaASzJMwTbky/expanded/0 with 0 bytes took 0ms
+20:56:39.763 204 PUT /api/branches/uaASzJMwTbky_wZwqNYvHUiaj/expanded/0 with 0 bytes took 0ms
+20:56:39.763 204 PUT /api/branches/XWiojJtBlmel_iLXZWCglWOmz/expanded/0 with 0 bytes took 0ms
+20:56:39.763 204 PUT /api/branches/iLXZWCglWOmz_Ly1JT1SGA0d0/expanded/0 with 0 bytes took 0ms
+20:56:39.764 204 PUT /api/branches/_hidden__lbRoot/expanded/0 with 0 bytes took 0ms
+20:56:39.764 204 PUT /api/branches/_lbRoot__lbAvailableLaunchers/expanded/0 with 0 bytes took 0ms
+20:56:39.764 204 PUT /api/branches/_lbRoot__lbVisibleLaunchers/expanded/0 with 0 bytes took 0ms
+20:56:39.765 204 PUT /api/branches/_hidden__options/expanded/0 with 0 bytes took 0ms
+20:56:40.791 204 PUT /api/branches/root__hidden/expanded/0 with 0 bytes took 1ms
+21:33:07.752 Optimizing database
+21:33:07.756 Optimization finished in 4ms.
+21:33:07.756 Table counts: notes: 386, revisions: 0, attachments: 16, branches: 416, attributes: 564, etapi_tokens: 0, blobs: 128
+21:33:07.760 All consistency checks passed with no errors detected (took 4ms)
